@@ -5,9 +5,9 @@
     "question": "Zamonaviy kompyuter arxitekturasi ko'p sathli tashkil qilinishida nechta sath mavjud deb tavsiflanadi?",
     "options": [
       "6 ta",
-      "8 ta",
+      "5 ta",
       "4 ta",
-      "5 ta"
+      "8 ta"
     ],
     "answer": "6 ta"
   },
@@ -16,9 +16,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kompyuter arxitekturasida nolinchi sath qanday nomlanadi?",
     "options": [
-      "Assembler tili sathi",
-      "Operatsion tizim sathi",
       "Raqamli mantiqiy sath",
+      "Operatsion tizim sathi",
+      "Assembler tili sathi",
       "Mikroarxitektura sathi"
     ],
     "answer": "Raqamli mantiqiy sath"
@@ -28,10 +28,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kompyuter arxitekturasining birinchi sathi qanday nomlanadi?",
     "options": [
-      "Raqamli mantiqiy sath",
       "Operatsion tizim sathi",
-      "Buyruqlar to'plami arxitekturasi sathi",
-      "Mikroarxitektura sathi"
+      "Mikroarxitektura sathi",
+      "Raqamli mantiqiy sath",
+      "Buyruqlar to'plami arxitekturasi sathi"
     ],
     "answer": "Mikroarxitektura sathi"
   },
@@ -52,10 +52,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Mikroarxitektura sathida lokal xotira nechta registrdan iborat bo'ladi?",
     "options": [
-      "2 yoki 8 ta registr",
-      "16 yoki 64 ta registr",
+      "4 yoki 16 ta registr",
       "8 yoki 32 ta registr",
-      "4 yoki 16 ta registr"
+      "16 yoki 64 ta registr",
+      "2 yoki 8 ta registr"
     ],
     "answer": "8 yoki 32 ta registr"
   },
@@ -64,10 +64,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kompyuterlarning to'rtinchi sathi qanday nomlanadi?",
     "options": [
+      "Assembler tili sathi",
       "Yuqori sath tili sathi",
-      "Buyruqlar to'plami arxitekturasi sathi",
       "Operatsion tizim sathi",
-      "Assembler tili sathi"
+      "Buyruqlar to'plami arxitekturasi sathi"
     ],
     "answer": "Assembler tili sathi"
   },
@@ -76,10 +76,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Ma'lumotlar trakti qanday tartibda ishlaydi?",
     "options": [
-      "Bir yoki ikkita registr tanlanadi, AMQ amal bajaradi, natija registrga joylashtiriladi",
+      "Protsessor xotiradan buyruqni o'qiydi va to'g'ridan-to'g'ri bajaradi",
       "Operatsion tizim buyruqlarni tartiblab protsessorsga yuboradi",
       "Buyruqlar keshdan olinib interpret qilinadi",
-      "Protsessor xotiradan buyruqni o'qiydi va to'g'ridan-to'g'ri bajaradi"
+      "Bir yoki ikkita registr tanlanadi, AMQ amal bajaradi, natija registrga joylashtiriladi"
     ],
     "answer": "Bir yoki ikkita registr tanlanadi, AMQ amal bajaradi, natija registrga joylashtiriladi"
   },
@@ -90,8 +90,8 @@
     "options": [
       "U apparat va dasturiy ta'minotni bir vaqtda boshqaradi",
       "Uning ko'pgina buyruqlari pastroqda joylashgan buyruqlar to'plami arxitekturasi sathida ham mavjud",
-      "Uning buyruqlari assembler tilida yozilgan",
-      "U foydalanuvchi va protsessor o'rtasida turadi"
+      "U foydalanuvchi va protsessor o'rtasida turadi",
+      "Uning buyruqlari assembler tilida yozilgan"
     ],
     "answer": "Uning ko'pgina buyruqlari pastroqda joylashgan buyruqlar to'plami arxitekturasi sathida ham mavjud"
   },
@@ -100,9 +100,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Mikrodastur kompyuter arxitekturasida qanday vazifani bajaradi?",
     "options": [
+      "Protsessorni boshqa protsessorlar bilan sinxronlashtiradi",
       "Protsessorga tashqi qurilmalar bilan ishlash imkonini beradi",
       "Ma'lumotlarni tezkor saqlash uchun xotira ajratadi",
-      "Protsessorni boshqa protsessorlar bilan sinxronlashtiradi",
       "Ikkinchi sath buyruqlarini interpretatsiya qilib bajaradi"
     ],
     "answer": "Ikkinchi sath buyruqlarini interpretatsiya qilib bajaradi"
@@ -112,10 +112,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "K580BM80 protsessori qaysi protsessorning to'liq analogi hisoblanadi?",
     "options": [
-      "Intel 8086",
       "Intel 8088",
+      "Pentium 4",
       "Intel 8080",
-      "Pentium 4"
+      "Intel 8086"
     ],
     "answer": "Intel 8080"
   },
@@ -124,10 +124,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "IBM PC shaxsiy kompyuterida dastlab qaysi protsessor o'rnatilgan?",
     "options": [
-      "Intel 8088",
       "Intel 8086",
+      "Intel 8080",
       "Pentium",
-      "Intel 8080"
+      "Intel 8088"
     ],
     "answer": "Intel 8088"
   },
@@ -137,9 +137,9 @@
     "question": "Mikrokontrollerlar kompyuterlarning qaysi turiga kiradi?",
     "options": [
       "Serverlar",
-      "Meynfreymlar",
+      "Ishchi stansiyalar",
       "O'rnatiladigan kompyuterlar",
-      "Ishchi stansiyalar"
+      "Meynfreymlar"
     ],
     "answer": "O'rnatiladigan kompyuterlar"
   },
@@ -149,9 +149,9 @@
     "question": "Klaster (cluster) deganda qanday kompyuterlar tushuniladi?",
     "options": [
       "Yagona protsessorli tezkor kompyuterlar",
+      "Tarmoqqa ulangan oddiy foydalanuvchi kompyuterlari",
       "Ishchi stansiyalardan iborat komplekslar",
-      "Katta hajmdagi ma'lumotlarni saqlash qurilmalari",
-      "Tarmoqqa ulangan oddiy foydalanuvchi kompyuterlari"
+      "Katta hajmdagi ma'lumotlarni saqlash qurilmalari"
     ],
     "answer": "Ishchi stansiyalardan iborat komplekslar"
   },
@@ -162,8 +162,8 @@
     "options": [
       "Ko'p maqsadli birinchi protsessor",
       "Mikrosxemaga joylashtirilgan birinchi mikroprotsessor",
-      "Birinchi 8-razryadli mikroprotsessor",
-      "Birinchi 16-razryadli mikroprotsessor"
+      "Birinchi 16-razryadli mikroprotsessor",
+      "Birinchi 8-razryadli mikroprotsessor"
     ],
     "answer": "Mikrosxemaga joylashtirilgan birinchi mikroprotsessor"
   },
@@ -172,9 +172,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel 8086 protsessori qanday ko'rsatkichlarga ega edi?",
     "options": [
-      "16-razryadli, 1 Mbayt xotira, 29 000 tranzistor",
-      "32-razryadli, 4 Gbayt xotira, 275 000 tranzistor",
       "16-razryadli, 4 Gbayt xotira, 134 000 tranzistor",
+      "32-razryadli, 4 Gbayt xotira, 275 000 tranzistor",
+      "16-razryadli, 1 Mbayt xotira, 29 000 tranzistor",
       "8-razryadli, 64 Kbayt xotira, 6 000 tranzistor"
     ],
     "answer": "16-razryadli, 1 Mbayt xotira, 29 000 tranzistor"
@@ -184,8 +184,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel Core Duo protsessorining o'ziga xos xususiyati nima?",
     "options": [
-      "Bitta asosga ikkita yadro joylashtirilgan",
       "Giperoqimli texnologiyani birinchi bo'lib qo'llagan",
+      "Bitta asosga ikkita yadro joylashtirilgan",
       "Uch sathli kesh xotiraga birinchi marta ega bo'lgan",
       "Birlashtirilgan grafik protsessor mavjud"
     ],
@@ -197,9 +197,9 @@
     "question": "Ma'lumotlar traktining apparat ta'minoti tomonidan boshqarilishining asosiy afzalligi qanday?",
     "options": [
       "Xotirada saqlash uchun zarur bo'lgan joy kamayadi",
-      "Protsessor tashqi qurilmalar bilan bevosita ishlash mumkin",
       "Mikrodastur ishtirokisiz buyruqlarni tezroq bajarish imkoni paydo bo'ladi",
-      "Ma'lumotlar trakt interpretatsiyasi moslashuvchan bo'ladi"
+      "Ma'lumotlar trakt interpretatsiyasi moslashuvchan bo'ladi",
+      "Protsessor tashqi qurilmalar bilan bevosita ishlash mumkin"
     ],
     "answer": "Mikrodastur ishtirokisiz buyruqlarni tezroq bajarish imkoni paydo bo'ladi"
   },
@@ -208,10 +208,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Ko'p sathli kompyuter arxitekturasini o'rganish nima uchun foydali?",
     "options": [
-      "Har bir sath o'ziga xos abstraksiya darajasini taqdim etib, qurilmani tushunishni osonlashtiradi",
       "Kompyuter faqat bitta sathda ishlashini tushunish imkonini beradi",
-      "Dasturlarni tezroq yozishga yordam beradi",
-      "Protsessor va xotira o'rtasidagi munosabatni yashiradi"
+      "Protsessor va xotira o'rtasidagi munosabatni yashiradi",
+      "Har bir sath o'ziga xos abstraksiya darajasini taqdim etib, qurilmani tushunishni osonlashtiradi",
+      "Dasturlarni tezroq yozishga yordam beradi"
     ],
     "answer": "Har bir sath o'ziga xos abstraksiya darajasini taqdim etib, qurilmani tushunishni osonlashtiradi"
   },
@@ -220,9 +220,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Pentium protsessorlari oilasida 80386 qanday muhim voqea bo'ldi?",
     "options": [
-      "Birinchi konveyerli protsessor yaratildi",
-      "Uch sathli kesh xotira birinchi marta qo'llanildi",
       "Giperoqimli texnologiya birinchi marta joriy qilindi",
+      "Uch sathli kesh xotira birinchi marta qo'llanildi",
+      "Birinchi konveyerli protsessor yaratildi",
       "Birinchi 32-razryadli protsessor bo'lib chiqdi"
     ],
     "answer": "Birinchi 32-razryadli protsessor bo'lib chiqdi"
@@ -233,9 +233,9 @@
     "question": "Intel Core i7 protsessorining Sandy Bridge versiyasida tranzistorlar soni qancha?",
     "options": [
       "152 000 000 ta",
+      "42 000 000 ta",
       "731 000 000 ta",
-      "1 160 000 000 ta",
-      "42 000 000 ta"
+      "1 160 000 000 ta"
     ],
     "answer": "1 160 000 000 ta"
   },
@@ -256,8 +256,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Buyruqning birinchi bayti har doim nimani o'z ichiga oladi?",
     "options": [
-      "Ikkinchi operandning qiymatini",
       "Ma'lumotning manzilini",
+      "Ikkinchi operandning qiymatini",
       "Bajarilish shartini",
       "Bajarilishi kerak bo'lgan amalning kodini"
     ],
@@ -268,10 +268,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Bevosita adreslash rejimida operand qayerda joylashgan bo'ladi?",
     "options": [
-      "Buyruqning o'zida",
-      "Registrda",
       "Asosiy xotirada",
-      "Stekda"
+      "Stekda",
+      "Buyruqning o'zida",
+      "Registrda"
     ],
     "answer": "Buyruqning o'zida"
   },
@@ -280,10 +280,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "To'g'ridan-to'g'ri adreslash rejimida xotira manzili qayerda ko'rsatiladi?",
     "options": [
-      "Boshqa bir xotira yacheykasida",
-      "Protsessorning ichki registrida",
       "Buyruqning manzil qismida",
-      "Stekning uchida"
+      "Stekning uchida",
+      "Protsessorning ichki registrida",
+      "Boshqa bir xotira yacheykasida"
     ],
     "answer": "Buyruqning manzil qismida"
   },
@@ -292,10 +292,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Uzilish (interrupt) deganda nima tushuniladi?",
     "options": [
-      "Xotiradagi ma'lumotlarni butunlay o'chirish",
-      "Protsessorni to'liq to'xtatib qo'yish",
       "Bajarilayotgan bir dasturni vaqtincha to'xtatib, boshqa dasturni bajarishga o'tish",
-      "Dasturni qayta ishga tushirish jarayoni"
+      "Dasturni qayta ishga tushirish jarayoni",
+      "Protsessorni to'liq to'xtatib qo'yish",
+      "Xotiradagi ma'lumotlarni butunlay o'chirish"
     ],
     "answer": "Bajarilayotgan bir dasturni vaqtincha to'xtatib, boshqa dasturni bajarishga o'tish"
   },
@@ -304,9 +304,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Stekli adreslash qanday tamoyil asosida ishlaydi?",
     "options": [
-      "Xotira to'g'ridan-to'g'ri adreslash orqali boshqariladi",
       "Birinchi kiritilgan ma'lumot birinchi chiqariladi",
       "Oxirgi kiritilgan ma'lumot birinchi chiqariladi",
+      "Xotira to'g'ridan-to'g'ri adreslash orqali boshqariladi",
       "Tasodifiy tartibda kirish amalga oshiriladi"
     ],
     "answer": "Oxirgi kiritilgan ma'lumot birinchi chiqariladi"
@@ -328,10 +328,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Stek ko'rsatgichi (SP – Stack Pointer) qanday axborotni saqlaydi?",
     "options": [
-      "Buyruqlarning xotiradagi adresini",
       "Bajarilayotgan buyruq kodini",
-      "Stekga murojaat qilinadigan xotiraning boshlang'ich adresini",
-      "Ma'lumotlar segmentining boshlanishini"
+      "Ma'lumotlar segmentining boshlanishini",
+      "Buyruqlarning xotiradagi adresini",
+      "Stekga murojaat qilinadigan xotiraning boshlang'ich adresini"
     ],
     "answer": "Stekga murojaat qilinadigan xotiraning boshlang'ich adresini"
   },
@@ -340,8 +340,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Dastur osti dasturlarini (подпрограмма) chaqirish va ulardaan qaytishda qaysi mexanizm qo'llaniladi?",
     "options": [
-      "Kesh xotira",
       "Stek mexanizmi",
+      "Kesh xotira",
       "Uzluksiz xotira segmentlari",
       "Faqat registrlar"
     ],
@@ -352,10 +352,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "K580BM80 protsessorida buyruqlar qanday guruhlarga bo'lingan?",
     "options": [
-      "Faqat arifmetik va mantiqiy buyruqlar",
-      "Kiritish, chiqarish va hisoblash buyruqlari",
+      "Ma'lumot ko'chirish, arifmetik, mantiqiy, boshqarishni uzatish, stek bilan ishlash buyruqlari",
       "Faqat xotira va registr bilan ishlash buyruqlari",
-      "Ma'lumot ko'chirish, arifmetik, mantiqiy, boshqarishni uzatish, stek bilan ishlash buyruqlari"
+      "Faqat arifmetik va mantiqiy buyruqlar",
+      "Kiritish, chiqarish va hisoblash buyruqlari"
     ],
     "answer": "Ma'lumot ko'chirish, arifmetik, mantiqiy, boshqarishni uzatish, stek bilan ishlash buyruqlari"
   },
@@ -364,10 +364,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Shartli va shartsiz o'tish buyruqlari nima uchun zarur?",
     "options": [
-      "Protsessorni kutish holatiga o'tkazish uchun",
       "Belgilar registridagi shartlarga qarab dastur bajarilish ketma-ketligini boshqarish uchun",
-      "Ma'lumotlarni xotiradan o'chirish uchun",
-      "Registrlarni boshlang'ich holatga qaytarish uchun"
+      "Protsessorni kutish holatiga o'tkazish uchun",
+      "Registrlarni boshlang'ich holatga qaytarish uchun",
+      "Ma'lumotlarni xotiradan o'chirish uchun"
     ],
     "answer": "Belgilar registridagi shartlarga qarab dastur bajarilish ketma-ketligini boshqarish uchun"
   },
@@ -376,10 +376,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Nisbiy indeksli adreslashda adres qanday hisoblanadi?",
     "options": [
+      "Registr qiymati va doimiy sonning yig'indisi",
       "Faqat buyruqdagi manzil qismidan",
-      "Stekdagi ma'lumotdan",
       "Buyruqlar sanagichi (PC) va buyruqdagi ofset qo'shilishi orqali",
-      "Registr qiymati va doimiy sonning yig'indisi"
+      "Stekdagi ma'lumotdan"
     ],
     "answer": "Buyruqlar sanagichi (PC) va buyruqdagi ofset qo'shilishi orqali"
   },
@@ -389,9 +389,9 @@
     "question": "Uch baytli buyruqda ikkinchi va uchinchi baytlar qanday ma'lumotlarni ifodalaydi?",
     "options": [
       "Ikkala bayt ham manzil ko'rsatuvchi registrlar",
-      "Ikkinchi bayt amal kodi, uchinchi bayt manzil",
       "Ikkinchi bayt shart, uchinchi bayt o'tish manzili",
-      "Ma'lumotning kichik bayti ikkinchi baytda, katta bayti uchinchi baytda joylashadi"
+      "Ma'lumotning kichik bayti ikkinchi baytda, katta bayti uchinchi baytda joylashadi",
+      "Ikkinchi bayt amal kodi, uchinchi bayt manzil"
     ],
     "answer": "Ma'lumotning kichik bayti ikkinchi baytda, katta bayti uchinchi baytda joylashadi"
   },
@@ -400,10 +400,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Raqamli ma'lumotlar qanday asosiy xillarga bo'linadi?",
     "options": [
-      "Butun sonlar va suzuvchi nuqtali sonlar",
-      "Simvollar va kodlar",
+      "Doimiy va o'zgaruvchan sonlar",
       "Matn va grafik ma'lumotlar",
-      "Doimiy va o'zgaruvchan sonlar"
+      "Simvollar va kodlar",
+      "Butun sonlar va suzuvchi nuqtali sonlar"
     ],
     "answer": "Butun sonlar va suzuvchi nuqtali sonlar"
   },
@@ -413,9 +413,9 @@
     "question": "Uzilish sodir bo'lganda protsessorning ichki registrlari nima uchun stekka saqlanadi?",
     "options": [
       "Yangi dasturni xotiraga yuklash uchun",
-      "Uzilish tugagach avvalgi dasturning holatini tiklash uchun",
+      "Uzilishning mohiyatini aniqlash uchun",
       "Protsessorni kutish holatidan chiqarish uchun",
-      "Uzilishning mohiyatini aniqlash uchun"
+      "Uzilish tugagach avvalgi dasturning holatini tiklash uchun"
     ],
     "answer": "Uzilish tugagach avvalgi dasturning holatini tiklash uchun"
   },
@@ -424,9 +424,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Indeksli adreslash rejimida adres qanday aniqlanadi?",
     "options": [
+      "Bazaviy adres va indeks registrining qiymati qo'shilishi bilan",
       "Stekdagi adres orqali",
       "Faqat buyruqdagi manzil qismidan",
-      "Bazaviy adres va indeks registrining qiymati qo'shilishi bilan",
       "Faqat registrdagi qiymatdan"
     ],
     "answer": "Bazaviy adres va indeks registrining qiymati qo'shilishi bilan"
@@ -436,8 +436,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Buyruqlar to'plamida LOAD buyruqi qanday amallarni bajaradi?",
     "options": [
-      "Xotiradan registrga ma'lumot ko'chiradi",
       "Registrdan xotiraga ma'lumot yozadi",
+      "Xotiradan registrga ma'lumot ko'chiradi",
       "Registr qiymatini birga oshiradi",
       "Ikkita registrdagi qiymatlarni qo'shadi"
     ],
@@ -462,8 +462,8 @@
     "options": [
       "Registrdagi ma'lumotni xotiraga yozadi",
       "Xotiradagi ma'lumotni o'chiradi",
-      "Registrlar o'rtasida ma'lumot almashadi",
-      "Xotiradan registrga ma'lumot ko'chiradi"
+      "Xotiradan registrga ma'lumot ko'chiradi",
+      "Registrlar o'rtasida ma'lumot almashadi"
     ],
     "answer": "Registrdagi ma'lumotni xotiraga yozadi"
   },
@@ -473,9 +473,9 @@
     "question": "PC (Program Counter) registrining buyruq bajarilgandan keyin avtomatik yangilanishining ahamiyati nima?",
     "options": [
       "Xotiradagi buyruqlar tartibini o'zgartirishga imkon beradi",
+      "Buyruqlarni parallel bajarishga imkon beradi",
       "Protsessor har bir buyruqni tartibda va bir marta bajarishini ta'minlaydi",
-      "Uzilishlar paytida manzilni avtomatik saqlaydi",
-      "Buyruqlarni parallel bajarishga imkon beradi"
+      "Uzilishlar paytida manzilni avtomatik saqlaydi"
     ],
     "answer": "Protsessor har bir buyruqni tartibda va bir marta bajarishini ta'minlaydi"
   },
@@ -485,9 +485,9 @@
     "question": "Kompyuter texnikasida ventil (gate) deganda nima tushuniladi?",
     "options": [
       "Protsessorning asosiy hisoblash bloki",
-      "Ma'lumotlarni saqlash uchun xotira yacheykasi",
       "Xotirani protsessor bilan bog'lovchi qurilma",
-      "Oddiy mantiqiy funksiyalarni bajaruvchi elektron element"
+      "Oddiy mantiqiy funksiyalarni bajaruvchi elektron element",
+      "Ma'lumotlarni saqlash uchun xotira yacheykasi"
     ],
     "answer": "Oddiy mantiqiy funksiyalarni bajaruvchi elektron element"
   },
@@ -498,8 +498,8 @@
     "options": [
       "D kirishi va Q chiqishi",
       "S (o'rnatish) va R (olib tashlash) kirishlari",
-      "Faqat S (sozlash) kirishi",
-      "A va B kirishlari"
+      "A va B kirishlari",
+      "Faqat S (sozlash) kirishi"
     ],
     "answer": "S (o'rnatish) va R (olib tashlash) kirishlari"
   },
@@ -508,10 +508,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "D-triggerning asosiy xususiyati qanday?",
     "options": [
-      "S va R kirishlariga ega",
+      "Ikkala kirishida signal bo'lganda ishlaydi",
       "Faqat 0 qiymatini saqlashi mumkin",
       "Taktli signal kelganda D kirishidagi qiymatni saqlaydi",
-      "Ikkala kirishida signal bo'lganda ishlaydi"
+      "S va R kirishlariga ega"
     ],
     "answer": "Taktli signal kelganda D kirishidagi qiymatni saqlaydi"
   },
@@ -520,10 +520,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Protsessor tarkibidagi registrlar qanday bit uzunliklariga ega bo'lishi mumkin?",
     "options": [
-      "8, 16, 32 yoki 64 bit",
-      "1, 2, 4 bit",
+      "Yalniz 32 yoki 64 bit",
       "4, 8, 16 bit",
-      "Yalniz 32 yoki 64 bit"
+      "8, 16, 32 yoki 64 bit",
+      "1, 2, 4 bit"
     ],
     "answer": "8, 16, 32 yoki 64 bit"
   },
@@ -533,9 +533,9 @@
     "question": "AND (И) mantiqiy elementi qanday hollarda chiqish 1 ni beradi?",
     "options": [
       "Kamida bitta kirish 1 bo'lganda chiqish 1 bo'ladi",
+      "Barcha kirish signallari 1 bo'lgandagina chiqish 1 bo'ladi",
       "Barcha kirish 0 bo'lganda chiqish 1 bo'ladi",
-      "Kirish 1 bo'lganda chiqish 0 bo'ladi",
-      "Barcha kirish signallari 1 bo'lgandagina chiqish 1 bo'ladi"
+      "Kirish 1 bo'lganda chiqish 0 bo'ladi"
     ],
     "answer": "Barcha kirish signallari 1 bo'lgandagina chiqish 1 bo'ladi"
   },
@@ -544,10 +544,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Haqiqat jadvali (truth table) nimani ifodalaydi?",
     "options": [
-      "Mantiqiy funksiyaning barcha mumkin bo'lgan kirish va chiqish qiymatlari to'plami",
-      "Protsessorning buyruqlar ro'yxati",
       "Dasturning bajarilish ketma-ketligi",
-      "Xotira yacheykalarining manzil bo'yicha jadvali"
+      "Mantiqiy funksiyaning barcha mumkin bo'lgan kirish va chiqish qiymatlari to'plami",
+      "Xotira yacheykalarining manzil bo'yicha jadvali",
+      "Protsessorning buyruqlar ro'yxati"
     ],
     "answer": "Mantiqiy funksiyaning barcha mumkin bo'lgan kirish va chiqish qiymatlari to'plami"
   },
@@ -557,9 +557,9 @@
     "question": "NAND (НЕ-И) elementi AND elementidan qanday farqlanadi?",
     "options": [
       "Yalniz dasturiy jihatdan amalga oshirilishi mumkin",
+      "Yalniz 8-bitli ma'lumotlar bilan ishlaydi",
       "Kirish soni farqli bo'ladi",
-      "Chiqishda AND natijasining inkori hosil qilinadi",
-      "Yalniz 8-bitli ma'lumotlar bilan ishlaydi"
+      "Chiqishda AND natijasining inkori hosil qilinadi"
     ],
     "answer": "Chiqishda AND natijasining inkori hosil qilinadi"
   },
@@ -568,10 +568,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kombinatsion (kombinator) sxemalar qanday xususiyatga ega?",
     "options": [
-      "Yalniz xotira elementlaridan tashkil topgan",
-      "Avvalgi holat va kirish signallariga bog'liq bo'ladi",
       "Chiqish signallari faqat kirish signallarining joriy qiymatlari asosida aniqlanadi",
-      "Yalniz arifmetik amallarni bajaradi"
+      "Avvalgi holat va kirish signallariga bog'liq bo'ladi",
+      "Yalniz arifmetik amallarni bajaradi",
+      "Yalniz xotira elementlaridan tashkil topgan"
     ],
     "answer": "Chiqish signallari faqat kirish signallarining joriy qiymatlari asosida aniqlanadi"
   },
@@ -580,10 +580,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kichik integral sxema tarkibida nechtagacha ventil joylashtirilgan bo'ladi?",
     "options": [
-      "100 000 tadan ortiq ventil",
-      "1 tadan 10 tagacha ventil",
       "10 tadan 100 tagacha ventil",
-      "100 tadan 100 000 tagacha ventil"
+      "100 tadan 100 000 tagacha ventil",
+      "100 000 tadan ortiq ventil",
+      "1 tadan 10 tagacha ventil"
     ],
     "answer": "1 tadan 10 tagacha ventil"
   },
@@ -592,8 +592,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "O'ta katta integral sxema tarkibida nechtagacha ventil bo'ladi?",
     "options": [
-      "100 tadan 100 000 tagacha ventil",
       "100 000 tadan ortiq ventil",
+      "100 tadan 100 000 tagacha ventil",
       "10 tadan 100 tagacha ventil",
       "1 tadan 10 tagacha ventil"
     ],
@@ -604,10 +604,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Multipleksor sxemasi qanday asosiy vazifani bajaradi?",
     "options": [
-      "Ikkilik sonni o'nlik songa aylantiradi",
+      "Bir nechta protsessorni o'zaro bog'laydi",
       "Raqamli signallarni analog kuchlanishga o'zgartiradi",
       "Ko'p kirish liniyalaridan birini tanlab, chiqishga uzatadi",
-      "Bir nechta protsessorni o'zaro bog'laydi"
+      "Ikkilik sonni o'nlik songa aylantiradi"
     ],
     "answer": "Ko'p kirish liniyalaridan birini tanlab, chiqishga uzatadi"
   },
@@ -616,8 +616,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "NOR (НЕ-ИЛИ) elementi qaysi holatda chiqish 1 bo'ladi?",
     "options": [
-      "Faqat bitta kirish 0 bo'lganda",
       "Kamida bitta kirish signali 1 bo'lganda",
+      "Faqat bitta kirish 0 bo'lganda",
       "Barcha kirish signallari 0 bo'lganda",
       "Barcha kirish signallari 1 bo'lganda"
     ],
@@ -629,9 +629,9 @@
     "question": "Taktli generator protsessorda nima uchun zarur?",
     "options": [
       "Ma'lumotlarni tezkor saqlash uchun",
-      "Buyruqlarni keshga yuklash uchun",
+      "Elektr manbaini boshqarish uchun",
       "Protsessordagi barcha sxemalarni vaqt bo'yicha sinxronlash uchun",
-      "Elektr manbaini boshqarish uchun"
+      "Buyruqlarni keshga yuklash uchun"
     ],
     "answer": "Protsessordagi barcha sxemalarni vaqt bo'yicha sinxronlash uchun"
   },
@@ -640,10 +640,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Haqiqat jadvalidan mantiqiy sxema qurish ketma-ketligida birinchi qadam nima?",
     "options": [
-      "Barcha AND elementlari chiqishlari OR ga ulanadi",
-      "Berilgan funksiyaning haqiqat jadvali tuzib olinadi",
       "Kirish signallari soni aniqlanadi",
-      "Har bir o'zgaruvchi uchun NOT element joylashtiriladi"
+      "Har bir o'zgaruvchi uchun NOT element joylashtiriladi",
+      "Berilgan funksiyaning haqiqat jadvali tuzib olinadi",
+      "Barcha AND elementlari chiqishlari OR ga ulanadi"
     ],
     "answer": "Berilgan funksiyaning haqiqat jadvali tuzib olinadi"
   },
@@ -653,8 +653,8 @@
     "question": "Siljitish (shift) sxemasi qanday amallarni bajaradi?",
     "options": [
       "Ma'lumotlarni xotiradan o'chiradi",
-      "Raqamli sonlarni analog signalga aylantiradi",
       "Ikkita sonni taqqoslaydi",
+      "Raqamli sonlarni analog signalga aylantiradi",
       "Ikkilik sonni bit bo'yicha o'ngga yoki chapga siljitadi"
     ],
     "answer": "Ikkilik sonni bit bo'yicha o'ngga yoki chapga siljitadi"
@@ -664,10 +664,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "SR-ilgak (latch) D-ilgakdan qanday asosiy jihatdan farqlanadi?",
     "options": [
-      "D-ilgakda ham R va S kirishlari mavjud",
       "SR-ilgakda ikkita mustaqil kirish bor; D-ilgakda bitta ma'lumot kirishi va sinxronlovchi signal mavjud",
-      "D-ilgak apparat jihatdan murakkabroq",
-      "SR-ilgak D-ilgakka nisbatan tezroq ishlaydi"
+      "SR-ilgak D-ilgakka nisbatan tezroq ishlaydi",
+      "D-ilgakda ham R va S kirishlari mavjud",
+      "D-ilgak apparat jihatdan murakkabroq"
     ],
     "answer": "SR-ilgakda ikkita mustaqil kirish bor; D-ilgakda bitta ma'lumot kirishi va sinxronlovchi signal mavjud"
   },
@@ -676,10 +676,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Komparator sxemasi qanday maqsadda qo'llaniladi?",
     "options": [
+      "Ikkita ikkilik sonni taqqoslab, teng, katta yoki kichikligini aniqlash uchun",
       "Protsessor registrlarini nollash uchun",
-      "Ma'lumotlarni keshga yuklash uchun",
       "Buyruqlarni dekodlash uchun",
-      "Ikkita ikkilik sonni taqqoslab, teng, katta yoki kichikligini aniqlash uchun"
+      "Ma'lumotlarni keshga yuklash uchun"
     ],
     "answer": "Ikkita ikkilik sonni taqqoslab, teng, katta yoki kichikligini aniqlash uchun"
   },
@@ -688,10 +688,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Yarım jamlagich (half adder) to'liq jamlagich (full adder) dan qanday farqlanadi?",
     "options": [
-      "Yarım jamlagich ko'proq ventillardan tashkil topgan",
-      "Ular bir-biridan chiqishlar soni bo'yicha farqlanmaydi",
       "To'liq jamlagich bit qo'sha olmaydi",
-      "Yarım jamlagichda ko'chirma (carry in) kirishi mavjud emas"
+      "Yarım jamlagichda ko'chirma (carry in) kirishi mavjud emas",
+      "Ular bir-biridan chiqishlar soni bo'yicha farqlanmaydi",
+      "Yarım jamlagich ko'proq ventillardan tashkil topgan"
     ],
     "answer": "Yarım jamlagichda ko'chirma (carry in) kirishi mavjud emas"
   },
@@ -700,9 +700,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Integral sxemalarni NAND yoki NOR elementlari asosida qurishning asosiy sababi nima?",
     "options": [
-      "NAND va NOR elementlari kamroq energiya sarflaydi",
       "Bu elementlar Bul funksiyalarining to'liq to'plami bo'lib, barcha mantiqiy funksiyalarni ulardan hosil qilish mumkin",
       "Bu elementlar boshqalarga nisbatan ishlab chiqarish uchun iqtisodiyroq",
+      "NAND va NOR elementlari kamroq energiya sarflaydi",
       "Bu elementlar boshqa mantiqiy elementlarga nisbatan ancha tez ishlaydi"
     ],
     "answer": "Bu elementlar Bul funksiyalarining to'liq to'plami bo'lib, barcha mantiqiy funksiyalarni ulardan hosil qilish mumkin"
@@ -713,9 +713,9 @@
     "question": "O'rta integral sxema tarkibida nechta ventil joylashgan bo'ladi?",
     "options": [
       "10 tadan 100 tagacha ventil",
-      "100 000 tadan ortiq ventil",
+      "1 tadan 10 tagacha ventil",
       "100 tadan 100 000 tagacha ventil",
-      "1 tadan 10 tagacha ventil"
+      "100 000 tadan ortiq ventil"
     ],
     "answer": "10 tadan 100 tagacha ventil"
   },
@@ -724,10 +724,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Zamonaviy kompyuterlar xotirasi qanday uzunlikdagi yacheykalarga asoslangan?",
     "options": [
-      "8-bitli (bir baytli) yacheykalar",
-      "4-bitli yacheykalar",
       "32-bitli yacheykalar",
-      "16-bitli yacheykalar"
+      "16-bitli yacheykalar",
+      "4-bitli yacheykalar",
+      "8-bitli (bir baytli) yacheykalar"
     ],
     "answer": "8-bitli (bir baytli) yacheykalar"
   },
@@ -736,8 +736,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Asosiy xotira adreslarini ifodalashda qaysi sanoq sistemasi qo'llaniladi?",
     "options": [
-      "O'n oltilik sanoq sistemasi",
       "Ikkilik sanoq sistemasi",
+      "O'n oltilik sanoq sistemasi",
       "O'nlik sanoq sistemasi",
       "Sakkizlik sanoq sistemasi"
     ],
@@ -749,9 +749,9 @@
     "question": "16-razryadli adres shinasi qancha hajmdagi xotirani bevosita adreslash imkonini beradi?",
     "options": [
       "64 Kbayt",
+      "1 Mbayt",
       "16 Mbayt",
-      "4 Gbayt",
-      "1 Mbayt"
+      "4 Gbayt"
     ],
     "answer": "64 Kbayt"
   },
@@ -761,9 +761,9 @@
     "question": "Pentium protsessorli kompyuterlarda baytlar xotiraga qanday tartibda joylashtiriladi?",
     "options": [
       "To'g'ri tartibda (chapdan o'ngga)",
+      "Juft adreslardan boshlab ketma-ket",
       "Teskari tartibda (o'ngdan chapga)",
-      "Tasodifiy tartibda",
-      "Juft adreslardan boshlab ketma-ket"
+      "Tasodifiy tartibda"
     ],
     "answer": "Teskari tartibda (o'ngdan chapga)"
   },
@@ -773,9 +773,9 @@
     "question": "SPARC oilasiga mansub protsessorlarda baytlar xotiraga qanday tartibda joylashtiriladi?",
     "options": [
       "To'g'ri tartibda (chapdan o'ngga)",
-      "Teskari tartibda (o'ngdan chapga)",
+      "Tasodifiy tartibda",
       "Segment chegarasidan boshlab",
-      "Tasodifiy tartibda"
+      "Teskari tartibda (o'ngdan chapga)"
     ],
     "answer": "To'g'ri tartibda (chapdan o'ngga)"
   },
@@ -784,10 +784,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Real rejimda xotiraga murojaat qilish qanday usul bilan amalga oshiriladi?",
     "options": [
-      "Kesh xotira orqali",
       "To'g'ridan-to'g'ri fizik adres orqali",
-      "Sahifalarga murojaat qilish orqali",
-      "Segmentlarga murojaat qilish orqali"
+      "Kesh xotira orqali",
+      "Segmentlarga murojaat qilish orqali",
+      "Sahifalarga murojaat qilish orqali"
     ],
     "answer": "Segmentlarga murojaat qilish orqali"
   },
@@ -808,10 +808,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Real rejimda bitta segmentning maksimal hajmi qancha?",
     "options": [
-      "4 Kbayt",
       "256 Kbayt",
+      "1 Mbayt",
       "64 Kbayt",
-      "1 Mbayt"
+      "4 Kbayt"
     ],
     "answer": "64 Kbayt"
   },
@@ -820,10 +820,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Himoyalangan rejimda sahifaning hajmi qancha?",
     "options": [
-      "1 Mbayt",
-      "16 Kbayt",
       "64 Kbayt",
-      "4 Kbayt"
+      "16 Kbayt",
+      "4 Kbayt",
+      "1 Mbayt"
     ],
     "answer": "4 Kbayt"
   },
@@ -832,10 +832,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "MS DOS operatsion tizimi xotiraning qaysi rejimida ishlagan?",
     "options": [
-      "Kengaytirilgan rejimda",
+      "Himoyalangan rejimda",
       "Real rejimda",
-      "Virtual rejimda",
-      "Himoyalangan rejimda"
+      "Kengaytirilgan rejimda",
+      "Virtual rejimda"
     ],
     "answer": "Real rejimda"
   },
@@ -844,10 +844,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "4 Gbayt hajmdagi xotirani adreslash uchun nechi razryadli adres shinasi zarur?",
     "options": [
-      "32-razryadli",
-      "16-razryadli",
+      "20-razryadli",
       "64-razryadli",
-      "20-razryadli"
+      "16-razryadli",
+      "32-razryadli"
     ],
     "answer": "32-razryadli"
   },
@@ -856,10 +856,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Protsessor xotiradan buyruq o'qiganda IP (Instruction Pointer) registrining qiymati qanday o'zgartiriladi?",
     "options": [
-      "Har doim 1 ga orttiriladi",
-      "Buyruqning bayt uzunligiga qarab 1, 2 yoki 3 ga orttiriladi",
       "Har doim 2 ga orttiriladi",
-      "Buyruq kodi asosida avtomatik hisoblanadi"
+      "Buyruq kodi asosida avtomatik hisoblanadi",
+      "Har doim 1 ga orttiriladi",
+      "Buyruqning bayt uzunligiga qarab 1, 2 yoki 3 ga orttiriladi"
     ],
     "answer": "Buyruqning bayt uzunligiga qarab 1, 2 yoki 3 ga orttiriladi"
   },
@@ -868,9 +868,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Xotira ma'lumotlar registri (MDR) qanday axborotni saqlaydi?",
     "options": [
-      "Protsessorning buyruqlar kodini",
-      "Xotiradan o'qilgan yoki xotiraga yoziladigan ma'lumotni",
       "Murojaat qilinadigan xotira yacheykasining manzilini",
+      "Xotiradan o'qilgan yoki xotiraga yoziladigan ma'lumotni",
+      "Protsessorning buyruqlar kodini",
       "Boshqarish signallarining holatini"
     ],
     "answer": "Xotiradan o'qilgan yoki xotiraga yoziladigan ma'lumotni"
@@ -881,8 +881,8 @@
     "question": "32-razryadli xotira yacheykalarining manzili qancha diapazonda o'zgaradi?",
     "options": [
       "0000 dan FFFF gacha",
-      "0 dan 2^8 gacha",
       "0000 0000 dan FFFF FFFF gacha",
+      "0 dan 2^8 gacha",
       "0 dan 2^16 gacha"
     ],
     "answer": "0000 0000 dan FFFF FFFF gacha"
@@ -892,10 +892,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Xotira manzil registri (MAR) qanday ma'lumotni saqlaydi?",
     "options": [
-      "O'qilgan ma'lumot qiymatini",
+      "Buyruqlar sanagichi qiymatini",
       "Boshqarish signallarini",
       "Xotiraga murojaat qilinadigan yacheykaning manzilini",
-      "Buyruqlar sanagichi qiymatini"
+      "O'qilgan ma'lumot qiymatini"
     ],
     "answer": "Xotiraga murojaat qilinadigan yacheykaning manzilini"
   },
@@ -904,10 +904,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kesh-xotira atamasi qaysi tildan olingan va qanday ma'no anglatadi?",
     "options": [
-      "Ingliz tilidan, «tezlik» ma'nosini anglatadi",
+      "Italyan tilidan, «ko'priqcha» ma'nosini anglatadi",
       "Fransuz tilidan, «yashirish» degan ma'noni anglatadi",
       "Lotin tilidan, «zaxira» ma'nosini anglatadi",
-      "Italyan tilidan, «ko'priqcha» ma'nosini anglatadi"
+      "Ingliz tilidan, «tezlik» ma'nosini anglatadi"
     ],
     "answer": "Fransuz tilidan, «yashirish» degan ma'noni anglatadi"
   },
@@ -916,10 +916,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kesh-xotiraning L1 (birinchi sath) qayerda joylashgan?",
     "options": [
-      "Vinchester diskida",
       "Asosiy xotira moduli ichida",
-      "Asosiy platada protsessor yonida",
-      "Markaziy protsessor ichida"
+      "Vinchester diskida",
+      "Markaziy protsessor ichida",
+      "Asosiy platada protsessor yonida"
     ],
     "answer": "Markaziy protsessor ichida"
   },
@@ -928,10 +928,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Statik TXQ (SRAM) qanday element asosida quriladi?",
     "options": [
-      "Tranzistorlar va kondensatorlar kombinatsiyasida",
-      "D-triggerlar asosida",
       "Faqat rezistorlar asosida",
-      "Kondensatorlar asosida"
+      "D-triggerlar asosida",
+      "Kondensatorlar asosida",
+      "Tranzistorlar va kondensatorlar kombinatsiyasida"
     ],
     "answer": "D-triggerlar asosida"
   },
@@ -941,9 +941,9 @@
     "question": "DIMM (Dual Inline Memory Module) modullari qanday xususiyatga ega?",
     "options": [
       "Ulanish nuqtalari bir tomonda joylashgan",
-      "Bitta siklda 32 bit uzatadi",
       "Ulanish nuqtalari ikki tomonda joylashgan va bitta siklda 64 bit uzatadi",
-      "Ko'proq protsessor keshida ishlatiladi"
+      "Ko'proq protsessor keshida ishlatiladi",
+      "Bitta siklda 32 bit uzatadi"
     ],
     "answer": "Ulanish nuqtalari ikki tomonda joylashgan va bitta siklda 64 bit uzatadi"
   },
@@ -952,10 +952,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "SIMM modullari bitta taktli siklda ma'lumotlarni qancha tezlikda uzata oladi?",
     "options": [
-      "64 bit",
+      "128 bit",
       "16 bit",
       "32 bit",
-      "128 bit"
+      "64 bit"
     ],
     "answer": "32 bit"
   },
@@ -964,10 +964,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Dinamik TXQ (DRAM) bir bitni saqlash uchun qanday komponentlar kerak?",
     "options": [
-      "Bitta kondensator va ikkita rezistor",
+      "Oltita tranzistor",
       "Ikkita tranzistor va bitta kondensator",
-      "Bitta tranzistor va bitta kondensator",
-      "Oltita tranzistor"
+      "Bitta kondensator va ikkita rezistor",
+      "Bitta tranzistor va bitta kondensator"
     ],
     "answer": "Bitta tranzistor va bitta kondensator"
   },
@@ -977,9 +977,9 @@
     "question": "Statik TXQ (SRAM) bir bitni saqlash uchun kamida nechta tranzistor kerak?",
     "options": [
       "1 ta tranzistor",
-      "6 ta tranzistor",
+      "2 ta tranzistor",
       "4 ta tranzistor",
-      "2 ta tranzistor"
+      "6 ta tranzistor"
     ],
     "answer": "6 ta tranzistor"
   },
@@ -988,10 +988,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kesh-xotiraning qanday ikkita xili mavjud?",
     "options": [
-      "Statik va dinamik kesh-xotira",
+      "Buyruqlar keshi va ma'lumotlar keshi",
       "Birlashtirilgan kesh-xotira va alohida ajratilgan kesh-xotira",
-      "L1 va L2 kesh-xotira",
-      "Buyruqlar keshi va ma'lumotlar keshi"
+      "Statik va dinamik kesh-xotira",
+      "L1 va L2 kesh-xotira"
     ],
     "answer": "Birlashtirilgan kesh-xotira va alohida ajratilgan kesh-xotira"
   },
@@ -1000,10 +1000,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Lokallik tamoyili (принцип локальности) kesh-xotirada qanday qo'llaniladi?",
     "options": [
+      "Eng so'nggi o'qilgan ma'lumot keshdan o'chiriladi",
       "Butun xotira tarkibi keshga ko'chiriladi",
-      "Protsessor yaqin vaqtda ko'p murojaat qiladigan xotira qismi keshda saqlanadi",
       "Kesh xotira tasodifiy yacheykalarni saqlaydi",
-      "Eng so'nggi o'qilgan ma'lumot keshdan o'chiriladi"
+      "Protsessor yaqin vaqtda ko'p murojaat qiladigan xotira qismi keshda saqlanadi"
     ],
     "answer": "Protsessor yaqin vaqtda ko'p murojaat qiladigan xotira qismi keshda saqlanadi"
   },
@@ -1012,9 +1012,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Hozirgi kompyuterlarda qaysi turdagi kesh-xotira ko'proq qo'llaniladi?",
     "options": [
-      "Birlashtirilgan kesh-xotira (buyruqlar va ma'lumotlar birgalikda)",
-      "Yagona sathli kesh-xotira",
       "Protsessor tashqarisidagi kesh-xotira",
+      "Yagona sathli kesh-xotira",
+      "Birlashtirilgan kesh-xotira (buyruqlar va ma'lumotlar birgalikda)",
       "Alohida ajratilgan kesh-xotira (buyruqlar va ma'lumotlar uchun alohida)"
     ],
     "answer": "Alohida ajratilgan kesh-xotira (buyruqlar va ma'lumotlar uchun alohida)"
@@ -1024,10 +1024,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "DDR xotira turi nima sababdan shunday nomlanadi?",
     "options": [
-      "Ikkita mustaqil ma'lumot traktiga ega ekanligi sababli",
-      "Ikkita alohida xotira blokida ishlashi sababli",
       "Ma'lumotlarni ikki karra tezlik bilan uzata olishi sababli",
-      "Ikkita taktli siklda bitta ma'lumot uzatishi sababli"
+      "Ikkita taktli siklda bitta ma'lumot uzatishi sababli",
+      "Ikkita mustaqil ma'lumot traktiga ega ekanligi sababli",
+      "Ikkita alohida xotira blokida ishlashi sababli"
     ],
     "answer": "Ma'lumotlarni ikki karra tezlik bilan uzata olishi sababli"
   },
@@ -1037,9 +1037,9 @@
     "question": "EPROM (Erasable PROM) qanday xotira qurilmasi?",
     "options": [
       "Faqat bir marta yozib, o'chirib bo'lmaydigan xotira",
-      "Axborotni o'chirish va qayta yozish mumkin bo'lgan dasturlanadigan doimiy xotira",
       "Elektron yo'l bilan o'chirish va yozish mumkin bo'lgan xotira",
-      "Faqat zavod tomonidan dasturlanadigan xotira"
+      "Faqat zavod tomonidan dasturlanadigan xotira",
+      "Axborotni o'chirish va qayta yozish mumkin bo'lgan dasturlanadigan doimiy xotira"
     ],
     "answer": "Axborotni o'chirish va qayta yozish mumkin bo'lgan dasturlanadigan doimiy xotira"
   },
@@ -1049,8 +1049,8 @@
     "question": "EEPROM nima bilan EPROM dan farqlanadi?",
     "options": [
       "EPROM ko'proq hajmga ega",
-      "EEPROM axborotni elektron yo'l bilan o'chirish va yozish imkonini beradi",
       "EPROM elektron yo'l bilan, EEPROM ultrabinafsha nur bilan o'chiriladi",
+      "EEPROM axborotni elektron yo'l bilan o'chirish va yozish imkonini beradi",
       "EEPROM faqat ishlab chiqarish vaqtida dasturlanadi"
     ],
     "answer": "EEPROM axborotni elektron yo'l bilan o'chirish va yozish imkonini beradi"
@@ -1060,10 +1060,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "ROM (doimiy xotira qurilmasi) qanday holat uchun mo'ljallangan?",
     "options": [
-      "Katta hajmdagi ma'lumotlarni arxivlash uchun",
       "Protsessor keshi sifatida ishlatish uchun",
-      "Elektr manbai uzilganda ham ma'lumotlarni saqlab turadigan xotira",
-      "Dasturlarni ishga tushirish oldidan vaqtincha saqlash uchun"
+      "Katta hajmdagi ma'lumotlarni arxivlash uchun",
+      "Dasturlarni ishga tushirish oldidan vaqtincha saqlash uchun",
+      "Elektr manbai uzilganda ham ma'lumotlarni saqlab turadigan xotira"
     ],
     "answer": "Elektr manbai uzilganda ham ma'lumotlarni saqlab turadigan xotira"
   },
@@ -1073,8 +1073,8 @@
     "question": "Protsessor tezligi va xotira tezligi o'rtasidagi farq kesh-xotira zarurligiga qanday sabab bo'ladi?",
     "options": [
       "Protsessor xotiraga murojaat qilganda bir nechta mashina sikllarini bekor o'tkazib yuboradi, kesh bu kutish vaqtini qisqartiradi",
-      "Protsessor va xotira bir xil tezlikda ishlaydi, kesh faqat hajmni kengaytiradi",
       "Kesh asosiy xotiraning o'rnini to'liq bosib, tezkorlikni ta'minlaydi",
+      "Protsessor va xotira bir xil tezlikda ishlaydi, kesh faqat hajmni kengaytiradi",
       "Kesh xotira xatolarni avtomatik tuzatadi"
     ],
     "answer": "Protsessor xotiraga murojaat qilganda bir nechta mashina sikllarini bekor o'tkazib yuboradi, kesh bu kutish vaqtini qisqartiradi"
@@ -1086,8 +1086,8 @@
     "options": [
       "Asosiy xotiraning tezkor qismi",
       "Asosiy plataga o'rnatilgan, bir necha megabayt hajmli statik TXQ qurilmasi",
-      "Ikkinchi sath keshining oddiy zaxira nusxasi",
-      "Protsessor ichidagi eng tez kesh xotira"
+      "Protsessor ichidagi eng tez kesh xotira",
+      "Ikkinchi sath keshining oddiy zaxira nusxasi"
     ],
     "answer": "Asosiy plataga o'rnatilgan, bir necha megabayt hajmli statik TXQ qurilmasi"
   },
@@ -1096,10 +1096,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "FPM (Fast Page Mode) xotira turi qanday dinamik xotira?",
     "options": [
-      "Ma'lumot chiqarish imkoniyatlari kengaytirilgan xotira",
-      "Ikki karra tez uzatuvchi xotira",
       "Sinxron dinamik xotira",
-      "Tezkor sahifalar rejimiga ega dinamik xotira"
+      "Ikki karra tez uzatuvchi xotira",
+      "Tezkor sahifalar rejimiga ega dinamik xotira",
+      "Ma'lumot chiqarish imkoniyatlari kengaytirilgan xotira"
     ],
     "answer": "Tezkor sahifalar rejimiga ega dinamik xotira"
   },
@@ -1110,8 +1110,8 @@
     "options": [
       "512 Kbayt dan 1 Mbaytgacha",
       "Bir necha megabayt",
-      "1 dan 4 Kbaytgacha",
-      "16 dan 64 Kbaytgacha"
+      "16 dan 64 Kbaytgacha",
+      "1 dan 4 Kbaytgacha"
     ],
     "answer": "16 dan 64 Kbaytgacha"
   },
@@ -1120,10 +1120,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "L2 (ikkinchi sath) kesh-xotirasi odatda qancha hajmga ega bo'ladi?",
     "options": [
-      "Bir necha megabayt",
-      "512 Kbayt dan 1 Mbaytgacha",
       "4 Kbaytdan 16 Kbaytgacha",
-      "16 dan 64 Kbaytgacha"
+      "16 dan 64 Kbaytgacha",
+      "Bir necha megabayt",
+      "512 Kbayt dan 1 Mbaytgacha"
     ],
     "answer": "512 Kbayt dan 1 Mbaytgacha"
   },
@@ -1132,10 +1132,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "SRAM asosiy xotira o'rnida DRAM ishlatilishining arxitekturaviy sababi nima?",
     "options": [
-      "DRAM SRAM ga nisbatan tezroq ishlaydi",
-      "DRAM qayta zaryadlash talab qilmasligi tufayli boshqaruvi sodda",
+      "DRAM tabiiy ravishda xatolarni tuzatish imkoniga ega",
       "DRAM da bir bitni saqlash uchun kamroq komponent kerak bo'lganligi tufayli zich va katta hajmli xotira quriladi",
-      "DRAM tabiiy ravishda xatolarni tuzatish imkoniga ega"
+      "DRAM qayta zaryadlash talab qilmasligi tufayli boshqaruvi sodda",
+      "DRAM SRAM ga nisbatan tezroq ishlaydi"
     ],
     "answer": "DRAM da bir bitni saqlash uchun kamroq komponent kerak bo'lganligi tufayli zich va katta hajmli xotira quriladi"
   },
@@ -1144,10 +1144,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Xotira iyerarxiyasida eng yuqori pog'onada qaysi xotira joylashgan?",
     "options": [
-      "Asosiy xotira",
+      "Protsessorning ichki registrlari",
       "Magnitli disklar",
       "L1 kesh-xotira",
-      "Protsessorning ichki registrlari"
+      "Asosiy xotira"
     ],
     "answer": "Protsessorning ichki registrlari"
   },
@@ -1156,9 +1156,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Magnitli diskda yo'lka (дорожка) deganda nima tushuniladi?",
     "options": [
-      "Bir sektorning boshqa nomi",
       "Diskdagi barcha ma'lumotlarning to'plami",
       "Bir sektordan iborat yagona doira",
+      "Bir sektorning boshqa nomi",
       "Disk bir marta to'liq aylanganda yozilgan bitlar ketma-ketligi"
     ],
     "answer": "Disk bir marta to'liq aylanganda yozilgan bitlar ketma-ketligi"
@@ -1168,10 +1168,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Vinchesterdagi silindr deganda nima tushuniladi?",
     "options": [
-      "Bitta plastinkadagi barcha sektorlar",
       "Plastinkalarda markazdan bir xil uzoqlikda joylashgan yo'lkalar to'plami",
+      "Vinchesterni boshqaruvchi qurilma",
       "Diskdagi zonalar soni",
-      "Vinchesterni boshqaruvchi qurilma"
+      "Bitta plastinkadagi barcha sektorlar"
     ],
     "answer": "Plastinkalarda markazdan bir xil uzoqlikda joylashgan yo'lkalar to'plami"
   },
@@ -1180,10 +1180,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Magnitli diskda har bir sektor odatda qancha hajmdagi ma'lumotni o'z ichiga oladi?",
     "options": [
-      "512 bayt",
+      "1024 bayt",
       "128 bayt",
       "256 bayt",
-      "1024 bayt"
+      "512 bayt"
     ],
     "answer": "512 bayt"
   },
@@ -1192,9 +1192,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "RAID so'zining to'liq ma'nosi qanday?",
     "options": [
+      "Reliable Array of Independent Data",
       "Random Access Integrated Disk",
       "Rapid Array of Internal Disks",
-      "Reliable Array of Independent Data",
       "Redundant Array of Independent Disks"
     ],
     "answer": "Redundant Array of Independent Disks"
@@ -1204,10 +1204,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "IDE (Integrated Drive Electronics) qanday disk qurilmasi?",
     "options": [
-      "Optik disk o'qish qurilmasi",
-      "Tashqi kontrollerga ulanadigan disk",
       "O'rnatilgan kontrollerga ega disk yurituvchi",
-      "Serverlar uchun mo'ljallangan alohida disk"
+      "Serverlar uchun mo'ljallangan alohida disk",
+      "Optik disk o'qish qurilmasi",
+      "Tashqi kontrollerga ulanadigan disk"
     ],
     "answer": "O'rnatilgan kontrollerga ega disk yurituvchi"
   },
@@ -1217,9 +1217,9 @@
     "question": "SCSI shinasi qanday maxsus xususiyatga ega?",
     "options": [
       "U IDE disklari bilan mos kelmaydi",
+      "U shina vazifasini ham bajaradi va unga ettita yoki undan ko'p qurilma ulanishi mumkin",
       "U faqat qattiq disk uchun oddiy interfeys",
-      "U asosan uy kompyuterlarida qo'llaniladi",
-      "U shina vazifasini ham bajaradi va unga ettita yoki undan ko'p qurilma ulanishi mumkin"
+      "U asosan uy kompyuterlarida qo'llaniladi"
     ],
     "answer": "U shina vazifasini ham bajaradi va unga ettita yoki undan ko'p qurilma ulanishi mumkin"
   },
@@ -1228,10 +1228,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Xotira iyerarxiyasida yuqoridan pastga qarab qanday uchta ko'rsatgich o'zgarib boradi?",
     "options": [
-      "Murojaat vaqti o'zgarmaydi, hajm oshadi, narx kamayadi",
-      "Murojaat vaqti kamayadi, hajm oshadi, narx oshadi",
       "Murojaat vaqti kattalashadi, xotira hajmi oshadi, bir birlik narxga to'g'ri keladigan xotira hajmi oshadi",
-      "Murojaat vaqti kattalashadi, hajm kamayadi, narx kamayadi"
+      "Murojaat vaqti kattalashadi, hajm kamayadi, narx kamayadi",
+      "Murojaat vaqti kamayadi, hajm oshadi, narx oshadi",
+      "Murojaat vaqti o'zgarmaydi, hajm oshadi, narx kamayadi"
     ],
     "answer": "Murojaat vaqti kattalashadi, xotira hajmi oshadi, bir birlik narxga to'g'ri keladigan xotira hajmi oshadi"
   },
@@ -1240,10 +1240,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Disk kontrollerining asosiy vazifalari qaysilar?",
     "options": [
+      "Diskni fizik zararlanishdan himoya qilish",
       "Diskning aylanish tezligini tartibga solish",
       "Ma'lumotlarni o'qish-yozish, xatolarni aniqlash va tuzatish, bitlar oqimini so'zlarga aylantirish",
-      "Faqat disk aylanishini boshqarish",
-      "Diskni fizik zararlanishdan himoya qilish"
+      "Faqat disk aylanishini boshqarish"
     ],
     "answer": "Ma'lumotlarni o'qish-yozish, xatolarni aniqlash va tuzatish, bitlar oqimini so'zlarga aylantirish"
   },
@@ -1252,10 +1252,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "ECC (Error-Correcting Code) diskda nima uchun qo'llaniladi?",
     "options": [
-      "O'qish-yozish xatolarini aniqlash va bartaraf etish uchun",
-      "Disk formatlanishini boshqarish uchun",
       "Disk tezligini oshirish uchun",
-      "Ma'lumotlarni shifrlash uchun"
+      "O'qish-yozish xatolarini aniqlash va bartaraf etish uchun",
+      "Ma'lumotlarni shifrlash uchun",
+      "Disk formatlanishini boshqarish uchun"
     ],
     "answer": "O'qish-yozish xatolarini aniqlash va bartaraf etish uchun"
   },
@@ -1264,10 +1264,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Bir tomonli bir qavatli DVD diskning sig'imi qancha?",
     "options": [
-      "4,7 Gbayt",
-      "8,5 Gbayt",
+      "17 Gbayt",
       "9,4 Gbayt",
-      "17 Gbayt"
+      "8,5 Gbayt",
+      "4,7 Gbayt"
     ],
     "answer": "4,7 Gbayt"
   },
@@ -1276,10 +1276,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Blu-Ray diskining bitta tomoniga qancha ma'lumot yozish mumkin?",
     "options": [
-      "4,7 Gbayt",
       "25 Gbaytgacha",
+      "8,5 Gbayt",
       "50 Gbayt",
-      "8,5 Gbayt"
+      "4,7 Gbayt"
     ],
     "answer": "25 Gbaytgacha"
   },
@@ -1289,9 +1289,9 @@
     "question": "ATAPI-7 (SATA) interfeysida ma'lumotlarni uzatish tezligi qancha?",
     "options": [
       "100 Mbit/sek",
-      "66 Mbit/sek",
+      "1,5 Gbit/sek (150 Mbit/sek)",
       "33 Mbit/sek",
-      "1,5 Gbit/sek (150 Mbit/sek)"
+      "66 Mbit/sek"
     ],
     "answer": "1,5 Gbit/sek (150 Mbit/sek)"
   },
@@ -1300,10 +1300,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Formatlangan diskning sig'imi formatlanmagan disk hajmiga nisbatan qancha kam bo'ladi?",
     "options": [
+      "15 % ga kam",
       "5 % ga kam",
       "25 % ga kam",
-      "10 % ga kam",
-      "15 % ga kam"
+      "10 % ga kam"
     ],
     "answer": "15 % ga kam"
   },
@@ -1312,10 +1312,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "CD-R (CD-Recordable) qanday disk?",
     "options": [
-      "O'chirib qayta yozish mumkin bo'lgan disk",
-      "Yalniz o'qish mumkin bo'lgan kompakt disk",
       "Raqamli video disk",
-      "Bir marta yozish mumkin bo'lgan kompakt disk"
+      "Yalniz o'qish mumkin bo'lgan kompakt disk",
+      "Bir marta yozish mumkin bo'lgan kompakt disk",
+      "O'chirib qayta yozish mumkin bo'lgan disk"
     ],
     "answer": "Bir marta yozish mumkin bo'lgan kompakt disk"
   },
@@ -1324,10 +1324,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Disklarda zonalar ajratilishining asosiy maqsadi nima?",
     "options": [
-      "Diskni turli fayl tizimlari uchun taqsimlash",
       "Tashqi zonalar markazga nisbatan ko'proq sektor sig'dirishi hisobiga disk hajmini oshirish",
-      "Diskni zararlanishdan himoya qilish",
-      "Har xil tezlikda ishlovchi ma'lumotlarni ajratish"
+      "Diskni turli fayl tizimlari uchun taqsimlash",
+      "Har xil tezlikda ishlovchi ma'lumotlarni ajratish",
+      "Diskni zararlanishdan himoya qilish"
     ],
     "answer": "Tashqi zonalar markazga nisbatan ko'proq sektor sig'dirishi hisobiga disk hajmini oshirish"
   },
@@ -1337,9 +1337,9 @@
     "question": "SCSI kabeli (8-razryadli) nechta o'tkazgichdan iborat?",
     "options": [
       "40 ta o'tkazgich",
-      "26 ta o'tkazgich",
+      "50 ta o'tkazgich",
       "68 ta o'tkazgich",
-      "50 ta o'tkazgich"
+      "26 ta o'tkazgich"
     ],
     "answer": "50 ta o'tkazgich"
   },
@@ -1348,10 +1348,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "EIDE va dastlabki IDE ning asosiy farqi nima?",
     "options": [
-      "IDE maksimal hajmi 128 Gbayt, EIDE esa 504 Mbayt",
       "EIDE maksimal hajmi 128 Gbayt va tezligi 16 Mbit/sek; IDE maksimal hajmi 504 Mbayt va tezligi 4 Mbit/sek",
+      "IDE ko'proq qurilma ulanishiga imkon beradi",
       "EIDE va IDE hajmlari bir xil, faqat tezliklari farqli",
-      "IDE ko'proq qurilma ulanishiga imkon beradi"
+      "IDE maksimal hajmi 128 Gbayt, EIDE esa 504 Mbayt"
     ],
     "answer": "EIDE maksimal hajmi 128 Gbayt va tezligi 16 Mbit/sek; IDE maksimal hajmi 504 Mbayt va tezligi 4 Mbit/sek"
   },
@@ -1361,9 +1361,9 @@
     "question": "DVD disklar yozishda qanday lazer qo'llaniladi?",
     "options": [
       "Ko'k rangli lazer",
-      "Ultrabinafsha lazer",
       "Infraqizil lazer",
-      "Qizil rangli lazer"
+      "Qizil rangli lazer",
+      "Ultrabinafsha lazer"
     ],
     "answer": "Qizil rangli lazer"
   },
@@ -1372,10 +1372,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Magnitli diskda preambula qanday vazifani bajaradi?",
     "options": [
-      "Diskni manzillash uchun, sektorning oxirida joylashadi",
+      "Sektorlararo intervallarni to'ldiradi",
       "Yozish-o'qish qurilmasini sinxronlash uchun, ma'lumotlardan oldin joylashadi",
-      "Xatolarni tuzatish uchun, ma'lumotlardan keyin joylashadi",
-      "Sektorlararo intervallarni to'ldiradi"
+      "Diskni manzillash uchun, sektorning oxirida joylashadi",
+      "Xatolarni tuzatish uchun, ma'lumotlardan keyin joylashadi"
     ],
     "answer": "Yozish-o'qish qurilmasini sinxronlash uchun, ma'lumotlardan oldin joylashadi"
   },
@@ -1384,9 +1384,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "K580BM80 protsessorining so'z uzunligi, xotira hajmi va taktli chastotasi qanday?",
     "options": [
-      "32 razryad, 4 Gbayt, 25 MGs",
       "8 razryad, 64 Kbayt, 2 MGs",
       "16 razryad, 1 Mbayt, 5 MGs",
+      "32 razryad, 4 Gbayt, 25 MGs",
       "8 razryad, 128 Kbayt, 4 MGs"
     ],
     "answer": "8 razryad, 64 Kbayt, 2 MGs"
@@ -1396,10 +1396,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Protsessor tarkibidagi boshqarish qurilmasi qanday asosiy vazifani bajaradi?",
     "options": [
-      "Arifmetik va mantiqiy amallarni bajarish",
-      "Ma'lumotlar uchun adreslarni hisoblash",
       "Ma'lumotlarni keshda saqlash",
-      "Buyruqlarni xotiradan chaqirish va ularni qanday buyruqlar ekanligini aniqlash"
+      "Buyruqlarni xotiradan chaqirish va ularni qanday buyruqlar ekanligini aniqlash",
+      "Arifmetik va mantiqiy amallarni bajarish",
+      "Ma'lumotlar uchun adreslarni hisoblash"
     ],
     "answer": "Buyruqlarni xotiradan chaqirish va ularni qanday buyruqlar ekanligini aniqlash"
   },
@@ -1408,9 +1408,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "DMA (Direct Memory Access) deganda nima tushuniladi?",
     "options": [
-      "Shinalar orqali ma'lumot almashish",
       "Kesh xotiradan ma'lumotlarni o'qish",
       "Tashqi qurilmalarning tezkor xotira bilan to'g'ridan-to'g'ri aloqa o'rnatishi",
+      "Shinalar orqali ma'lumot almashish",
       "Protsessor orqali xotiraga murojaat qilish"
     ],
     "answer": "Tashqi qurilmalarning tezkor xotira bilan to'g'ridan-to'g'ri aloqa o'rnatishi"
@@ -1421,9 +1421,9 @@
     "question": "K580BM80 protsessorida belgilar registri qanday axborotni saqlaydi?",
     "options": [
       "Bajarilayotgan buyruq kodini",
-      "Amal bajarilishi natijasida hosil bo'lgan belgilarni (ishorasi, nol holati, juftligi va boshqalar)",
       "Keyingi bajarilishi kerak bo'lgan buyruqning adresini",
-      "Stek boshlang'ich adresini"
+      "Stek boshlang'ich adresini",
+      "Amal bajarilishi natijasida hosil bo'lgan belgilarni (ishorasi, nol holati, juftligi va boshqalar)"
     ],
     "answer": "Amal bajarilishi natijasida hosil bo'lgan belgilarni (ishorasi, nol holati, juftligi va boshqalar)"
   },
@@ -1432,10 +1432,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "K580BM80 protsessorida umumiy tayinlanadigan registrlar qaysilar?",
     "options": [
-      "B, C, D, E, H, L registrlari",
-      "W2, W3 registrlari",
       "IR, A registrlari",
-      "PC, SP registrlari"
+      "PC, SP registrlari",
+      "W2, W3 registrlari",
+      "B, C, D, E, H, L registrlari"
     ],
     "answer": "B, C, D, E, H, L registrlari"
   },
@@ -1444,8 +1444,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "RESET signali protsessorda qanday vazifani bajaradi?",
     "options": [
-      "Protsessorni ma'lumot almashinishga tayyorlaydi",
       "Shinani egallab olish uchun signal beradi",
+      "Protsessorni ma'lumot almashinishga tayyorlaydi",
       "Protsessorni boshlang'ich holatga o'tkazadi",
       "Uzilish so'rash signali yuboradi"
     ],
@@ -1457,8 +1457,8 @@
     "question": "K580BM80 protsessorining buyruqlar to'plami nechta buyruqdan iborat?",
     "options": [
       "200 ta buyruq",
-      "131 ta buyruq",
       "244 ta buyruq",
+      "131 ta buyruq",
       "78 ta buyruq"
     ],
     "answer": "244 ta buyruq"
@@ -1468,8 +1468,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "K580BM80 protsessorida mashina sikli deganda nima tushuniladi?",
     "options": [
-      "Buyruqlarni ketma-ket bajarilish tsikli",
       "Xotiradan bir baytli axborotni o'qish yoki bir baytli buyruqni bajarish uchun ketgan vaqt",
+      "Buyruqlarni ketma-ket bajarilish tsikli",
       "Butun dasturni bajarish vaqti",
       "Protsessorning bir taktli davri"
     ],
@@ -1480,10 +1480,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "K580BM80 protsessorida necha xil mashina aylanishi (tsikli) mavjud?",
     "options": [
-      "7 xil",
-      "10 xil",
       "5 xil",
-      "3 xil"
+      "3 xil",
+      "10 xil",
+      "7 xil"
     ],
     "answer": "10 xil"
   },
@@ -1492,9 +1492,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "READY signali protsessorda nima haqida xabar beradi?",
     "options": [
-      "Xotira yoki tashqi qurilma ma'lumot almashinishga tayyor ekanligi",
-      "Tashqi uzilish so'ralayotganligi",
       "Shinaning bo'shligini",
+      "Tashqi uzilish so'ralayotganligi",
+      "Xotira yoki tashqi qurilma ma'lumot almashinishga tayyor ekanligi",
       "Protsessorni boshlang'ich holatga qaytarish kerakligi"
     ],
     "answer": "Xotira yoki tashqi qurilma ma'lumot almashinishga tayyor ekanligi"
@@ -1504,10 +1504,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel 8088 protsessorida xotira boshqaruvi qanday usul bilan amalga oshiriladi?",
     "options": [
-      "64 Kbaytli segmentlarga bo'lish orqali",
+      "Kesh xotira orqali",
       "To'g'ridan-to'g'ri fizik adresMslash orqali",
       "4 Kbaytli sahifalarga bo'lish orqali",
-      "Kesh xotira orqali"
+      "64 Kbaytli segmentlarga bo'lish orqali"
     ],
     "answer": "64 Kbaytli segmentlarga bo'lish orqali"
   },
@@ -1516,10 +1516,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel 8088 protsessorida CS registri qanday vazifani bajaradi?",
     "options": [
-      "Bayroqlar holatini saqlaydi",
       "Kodlar yoziladigan segmentning boshlang'ich adresini ko'rsatadi",
+      "Ma'lumotlar segmentining boshlang'ich adresini ko'rsatadi",
       "Stekni boshqaradi",
-      "Ma'lumotlar segmentining boshlang'ich adresini ko'rsatadi"
+      "Bayroqlar holatini saqlaydi"
     ],
     "answer": "Kodlar yoziladigan segmentning boshlang'ich adresini ko'rsatadi"
   },
@@ -1529,9 +1529,9 @@
     "question": "Protsessor sikli qanday tartibda amalga oshiriladi?",
     "options": [
       "Amal bajariladi, natija saqlanadi, buyruq tanlanadi",
-      "Buyruq tanlanadi, operandlar olinadi, PC yangilanadi",
       "Buyruq tanlanadi, PC yangilanadi, buyruq dekodlanadi, operandlar olinadi, amal bajariladi, natija saqlanadi",
-      "Operandlar tanlanadi, buyruq o'qiladi, natija hisoblanadi"
+      "Operandlar tanlanadi, buyruq o'qiladi, natija hisoblanadi",
+      "Buyruq tanlanadi, operandlar olinadi, PC yangilanadi"
     ],
     "answer": "Buyruq tanlanadi, PC yangilanadi, buyruq dekodlanadi, operandlar olinadi, amal bajariladi, natija saqlanadi"
   },
@@ -1540,10 +1540,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel 8088 protsessorida DS registri qanday vazifani bajaradi?",
     "options": [
-      "Stekni ko'rsatadi",
       "Ma'lumotlar segmentining boshlang'ich adresini ko'rsatadi",
-      "Buyruqlar sanagichi sifatida ishlaydi",
-      "Kodlar segmentining boshlang'ich adresini ko'rsatadi"
+      "Stekni ko'rsatadi",
+      "Kodlar segmentining boshlang'ich adresini ko'rsatadi",
+      "Buyruqlar sanagichi sifatida ishlaydi"
     ],
     "answer": "Ma'lumotlar segmentining boshlang'ich adresini ko'rsatadi"
   },
@@ -1552,10 +1552,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel 8088 protsessorining ichki registrlari nechta guruhga bo'lingan?",
     "options": [
-      "7 ta",
-      "4 ta",
       "3 ta",
-      "5 ta"
+      "5 ta",
+      "7 ta",
+      "4 ta"
     ],
     "answer": "5 ta"
   },
@@ -1564,10 +1564,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "HLDA signali protsessorda nima ma'noni anglatadi?",
     "options": [
-      "Protsessorning to'xtash holatga o'tganligini",
-      "Ma'lumotlarni shinaga chiqarib qo'yilganligini",
       "Shinani egallanganligini tasdiqlash va tashqi qurilmaga ma'lumotlar shinasiga ulanishga ruxsat berish",
-      "Uzilishga ruxsat berilganligini"
+      "Uzilishga ruxsat berilganligini",
+      "Ma'lumotlarni shinaga chiqarib qo'yilganligini",
+      "Protsessorning to'xtash holatga o'tganligini"
     ],
     "answer": "Shinani egallanganligini tasdiqlash va tashqi qurilmaga ma'lumotlar shinasiga ulanishga ruxsat berish"
   },
@@ -1576,8 +1576,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "BC, DE, HL registr juftliklari K580BM80 protsessorida qanday maqsadda ishlatilishi mumkin?",
     "options": [
-      "Stek ko'rsatgichi sifatida",
       "Buyruqning turiga qarab mustaqil 8-razryadli yoki 16-razryadli juft registrlar sifatida",
+      "Stek ko'rsatgichi sifatida",
       "Yalniz arifmetik amallar uchun",
       "Yalniz 16-razryadli adreslarni saqlash uchun"
     ],
@@ -1588,10 +1588,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel 8088 protsessoridagi 14 ta ichki registr arxitekturaviy jihatdan qanday rol o'ynaydi?",
     "options": [
-      "Yalniz manzillarni saqlash uchun xizmat qiladi",
-      "O'ta katta tezlikdagi xotira vazifasini bajarib, ko'p sonli buyruqlar tomonidan ishlatiladi",
       "Stekni to'liq o'z ichiga oladi",
-      "Kesh xotirani o'zgartiradi"
+      "Kesh xotirani o'zgartiradi",
+      "Yalniz manzillarni saqlash uchun xizmat qiladi",
+      "O'ta katta tezlikdagi xotira vazifasini bajarib, ko'p sonli buyruqlar tomonidan ishlatiladi"
     ],
     "answer": "O'ta katta tezlikdagi xotira vazifasini bajarib, ko'p sonli buyruqlar tomonidan ishlatiladi"
   },
@@ -1600,10 +1600,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "K580BM80 protsessorida oraliq registrlar (W2, W3) boshqa registrlardan qanday farqlanadi?",
     "options": [
-      "Ular uzilish paytida murojaat qilish uchun mo'ljallangan",
-      "Ular yalniz adreslarni saqlaydi",
+      "Ularga dastur yordamida murojaat qilib bo'lmaydi; protsessor ichida buyruqlarni bajarishda ishlatiladi",
       "Ular kesh xotira bilan to'g'ridan-to'g'ri bog'langan",
-      "Ularga dastur yordamida murojaat qilib bo'lmaydi; protsessor ichida buyruqlarni bajarishda ishlatiladi"
+      "Ular yalniz adreslarni saqlaydi",
+      "Ular uzilish paytida murojaat qilish uchun mo'ljallangan"
     ],
     "answer": "Ularga dastur yordamida murojaat qilib bo'lmaydi; protsessor ichida buyruqlarni bajarishda ishlatiladi"
   },
@@ -1612,8 +1612,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel 8088 protsessorida kodlar yoziladigan segmentning maksimal hajmi qancha?",
     "options": [
-      "256 Kbayt",
       "4 Gbayt",
+      "256 Kbayt",
       "64 Kbayt",
       "1 Mbayt"
     ],
@@ -1624,9 +1624,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Ma'lumotlarni parallel ishlashning ikkita asosiy shakli qaysilar?",
     "options": [
-      "Vektorli va matritsali hisoblash",
-      "Konveyerli va superskalyar hisoblash",
       "Ketma-ket va parallel bajarish",
+      "Konveyerli va superskalyar hisoblash",
+      "Vektorli va matritsali hisoblash",
       "Buyruqlar sathidagi parallellik va protsessorlar sathidagi parallellik"
     ],
     "answer": "Buyruqlar sathidagi parallellik va protsessorlar sathidagi parallellik"
@@ -1636,10 +1636,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Konveyerning birinchi bosqichi (C1 bloki) qanday amallarni bajaradi?",
     "options": [
-      "Buyruqni dekodlaydi",
+      "Natijani registrga yozadi",
       "Asosiy xotiradan buyruqni chaqiradi va IR registriga joylashtiradi",
-      "Operandlarni chaqiradi",
-      "Natijani registrga yozadi"
+      "Buyruqni dekodlaydi",
+      "Operandlarni chaqiradi"
     ],
     "answer": "Asosiy xotiradan buyruqni chaqiradi va IR registriga joylashtiradi"
   },
@@ -1648,10 +1648,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Pentium 4 protsessori superskalyar deb atalishining sababi nima?",
     "options": [
-      "U 64-razryadli ma'lumotlar bilan ishlaydi",
+      "Unda ko'p sonli registrlar mavjud",
       "Unda uch sathli kesh xotira mavjud",
       "Bitta sikl davomida bir nechta buyruqlarni bajarish imkoniyatiga ega",
-      "Unda ko'p sonli registrlar mavjud"
+      "U 64-razryadli ma'lumotlar bilan ishlaydi"
     ],
     "answer": "Bitta sikl davomida bir nechta buyruqlarni bajarish imkoniyatiga ega"
   },
@@ -1660,10 +1660,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel 486 protsessori qanday konveyerga ega edi?",
     "options": [
-      "Ikkita besh sathli konveyer",
-      "Ikkita uch sathli konveyer",
       "Bitta besh sathli konveyer",
-      "Bitta etti sathli konveyer"
+      "Bitta etti sathli konveyer",
+      "Ikkita besh sathli konveyer",
+      "Ikkita uch sathli konveyer"
     ],
     "answer": "Bitta besh sathli konveyer"
   },
@@ -1672,10 +1672,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Pentium 4 protsessori qanday mikroarxitekturaga asoslangan?",
     "options": [
-      "Nehalem arxitekturasi",
+      "P6 mikroarxitekturasi",
       "Sandy Bridge arxitekturasi",
-      "NetBurst mikroarxitekturasi",
-      "P6 mikroarxitekturasi"
+      "Nehalem arxitekturasi",
+      "NetBurst mikroarxitekturasi"
     ],
     "answer": "NetBurst mikroarxitekturasi"
   },
@@ -1684,10 +1684,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Besh sathli konveyerning beshinchi bosqichi (C5 bloki) qanday amallarni bajaradi?",
     "options": [
-      "Hosil bo'lgan natijani buyruqda ko'rsatilgan registrga yozadi",
+      "Operandlarni xotiradan olib keladi",
       "Buyruqni dekodlaydi",
       "Buyruqni xotiradan chaqiradi",
-      "Operandlarni xotiradan olib keladi"
+      "Hosil bo'lgan natijani buyruqda ko'rsatilgan registrga yozadi"
     ],
     "answer": "Hosil bo'lgan natijani buyruqda ko'rsatilgan registrga yozadi"
   },
@@ -1696,10 +1696,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Superskalyar arxitekturaning asosiy tamoyili nima?",
     "options": [
-      "Bajarish bosqichi (C4) tarkibiga ko'p sonli funksional bloklar kiritib parallel bajarish",
+      "Buyruqlar ketma-ketligini o'zgartirish",
       "Asosiy xotira o'rniga kesh xotira ishlatish",
       "Bir nechta mustaqil protsessor yadrolari yaratish",
-      "Buyruqlar ketma-ketligini o'zgartirish"
+      "Bajarish bosqichi (C4) tarkibiga ko'p sonli funksional bloklar kiritib parallel bajarish"
     ],
     "answer": "Bajarish bosqichi (C4) tarkibiga ko'p sonli funksional bloklar kiritib parallel bajarish"
   },
@@ -1710,8 +1710,8 @@
     "options": [
       "Xotira va protsessor o'rtasidagi tezlashtirilgan aloqa",
       "Ikkita registrlar to'plami va qator resurslarga ega qurilma, bir vaqtda ikkita dastur orasida tez almashish",
-      "Ikkita mustaqil protsessor yadrosining bir vaqtda ishlashi",
-      "Konveyerdagi bosqichlar sonini oshirish"
+      "Konveyerdagi bosqichlar sonini oshirish",
+      "Ikkita mustaqil protsessor yadrosining bir vaqtda ishlashi"
     ],
     "answer": "Ikkita registrlar to'plami va qator resurslarga ega qurilma, bir vaqtda ikkita dastur orasida tez almashish"
   },
@@ -1721,9 +1721,9 @@
     "question": "Pentium 4 protsessori tarkibida nechta tranzistor ishlatilgan?",
     "options": [
       "3 100 000 ta",
+      "6 000 ta",
       "29 000 ta",
-      "42 000 000 ta",
-      "6 000 ta"
+      "42 000 000 ta"
     ],
     "answer": "42 000 000 ta"
   },
@@ -1732,10 +1732,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Pentium 4 ning «qatorining kengligi» deganda nima tushuniladi?",
     "options": [
+      "Ma'lumotlar shinasining razryad soni",
       "Protsessor korpusining fizik o'lchami",
-      "Protsessordagi registrlar soni",
       "Tranzistorlar orasidagi o'tkazgichlarning kengligi",
-      "Ma'lumotlar shinasining razryad soni"
+      "Protsessordagi registrlar soni"
     ],
     "answer": "Tranzistorlar orasidagi o'tkazgichlarning kengligi"
   },
@@ -1744,10 +1744,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Pentium 4 protsessorining L1 kesh xotira hajmi qancha?",
     "options": [
-      "512 Kbayt",
       "1 Mbayt",
-      "8 Kbayt",
-      "32 Kbayt"
+      "512 Kbayt",
+      "32 Kbayt",
+      "8 Kbayt"
     ],
     "answer": "8 Kbayt"
   },
@@ -1756,10 +1756,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Pentium 4 protsessori Pentium Pro va Pentium III lardan qanday asosiy jihatdan farqlanadi?",
     "options": [
-      "P6 mikroarxitekturasidan keskin farq qiladigan NetBurst arxitekturasiga ega",
+      "Birinchi sath kesh xotirasini yo'q qilgan",
       "32-razryaddan 64-razryadga o'tish bilan farqlanadi",
       "Yalniz taktli chastotasi bo'yicha farqlanadi",
-      "Birinchi sath kesh xotirasini yo'q qilgan"
+      "P6 mikroarxitekturasidan keskin farq qiladigan NetBurst arxitekturasiga ega"
     ],
     "answer": "P6 mikroarxitekturasidan keskin farq qiladigan NetBurst arxitekturasiga ega"
   },
@@ -1768,10 +1768,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Pentium protsessorining u-konveyeri va v-konveyerining farqi nima?",
     "options": [
-      "v-konveyer asosiy, u-konveyer yordamchi",
       "u-konveyer mantiqiy, v-konveyer arifmetik amallar uchun",
-      "u-konveyerda barcha buyruqlar, v-konveyerda nisbatan oddiy buyruqlar bajarilishi mumkin",
-      "Ikkala konveyer ham bir xil buyruqlarni bajaradi"
+      "Ikkala konveyer ham bir xil buyruqlarni bajaradi",
+      "v-konveyer asosiy, u-konveyer yordamchi",
+      "u-konveyerda barcha buyruqlar, v-konveyerda nisbatan oddiy buyruqlar bajarilishi mumkin"
     ],
     "answer": "u-konveyerda barcha buyruqlar, v-konveyerda nisbatan oddiy buyruqlar bajarilishi mumkin"
   },
@@ -1780,10 +1780,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Besh sathli konveyer ikkinchi bosqichi (C2 bloki) qanday amallarni bajaradi?",
     "options": [
-      "Operandlarni xotiradan olib keladi",
-      "Buyruqni dekodlaydi va operandlarni aniqlaydi",
+      "Buyruqni xotiradan chaqiradi",
       "Natijani registrga yozadi",
-      "Buyruqni xotiradan chaqiradi"
+      "Buyruqni dekodlaydi va operandlarni aniqlaydi",
+      "Operandlarni xotiradan olib keladi"
     ],
     "answer": "Buyruqni dekodlaydi va operandlarni aniqlaydi"
   },
@@ -1792,10 +1792,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Pentium 4 mikrosxemasi nechta chiqish oyoqchasiga ega?",
     "options": [
-      "1368 ta",
-      "478 ta",
+      "40 ta",
       "155 ta",
-      "40 ta"
+      "1368 ta",
+      "478 ta"
     ],
     "answer": "478 ta"
   },
@@ -1805,9 +1805,9 @@
     "question": "Konveyerning to'rtinchi bosqichi (C4 bloki) qanday amallarni bajaradi?",
     "options": [
       "Buyruqni dekodlaydi",
+      "Operandlarni ma'lumotlar trakti orqali o'tkazib, buyruqni bajaradi",
       "Buyruqni xotiradan chaqiradi",
-      "Natijani xotiraga yozadi",
-      "Operandlarni ma'lumotlar trakti orqali o'tkazib, buyruqni bajaradi"
+      "Natijani xotiraga yozadi"
     ],
     "answer": "Operandlarni ma'lumotlar trakti orqali o'tkazib, buyruqni bajaradi"
   },
@@ -1816,10 +1816,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "NetBurst mikroarxitekturasi P6 arxitekturasidan qanday jihatlar bilan farqlanadi?",
     "options": [
-      "Yalniz taktli chastota farqlanadi",
-      "Ko'proq bosqichli konveyer, ikkita AMQ va giperoqimli texnologiya",
+      "Yalniz kesh xotira hajmi farqlanadi",
       "Kamroq bosqichli konveyer va ko'proq registrlar",
-      "Yalniz kesh xotira hajmi farqlanadi"
+      "Yalniz taktli chastota farqlanadi",
+      "Ko'proq bosqichli konveyer, ikkita AMQ va giperoqimli texnologiya"
     ],
     "answer": "Ko'proq bosqichli konveyer, ikkita AMQ va giperoqimli texnologiya"
   },
@@ -1828,10 +1828,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "EAX, EBX, ECX, EDX registrlarini 8, 16 va 32 razryadli sifatida ishlatish qanday afzallik beradi?",
     "options": [
-      "Hisoblash tezligini ikki barobar oshiradi",
-      "Kesh xotiraga murojaat samaradorligini oshiradi",
+      "Xotiraga saqlash hajmini kamaytiradi",
       "Turli razryadli eski dasturlar bilan to'liq moslikni (совместимость) ta'minlaydi",
-      "Xotiraga saqlash hajmini kamaytiradi"
+      "Kesh xotiraga murojaat samaradorligini oshiradi",
+      "Hisoblash tezligini ikki barobar oshiradi"
     ],
     "answer": "Turli razryadli eski dasturlar bilan to'liq moslikni (совместимость) ta'minlaydi"
   },
@@ -1840,9 +1840,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Konveyerning uchinchi bosqichi (C3 bloki) qanday amallarni bajaradi?",
     "options": [
-      "Natijani registrga yozadi",
-      "Operandlarning joylashuvini aniqlaydi va ularni registr yoki xotiradan chaqiradi",
       "Buyruqni xotiradan chaqiradi",
+      "Operandlarning joylashuvini aniqlaydi va ularni registr yoki xotiradan chaqiradi",
+      "Natijani registrga yozadi",
       "Buyruqni dekodlaydi"
     ],
     "answer": "Operandlarning joylashuvini aniqlaydi va ularni registr yoki xotiradan chaqiradi"
@@ -1852,8 +1852,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Besh sathli konveyerda har bir aylanishida (tsiklda) 2 ns sarflansa, birinchi buyruq konveyerdan to'liq o'tishi uchun qancha vaqt ketadi?",
     "options": [
-      "10 ns",
       "5 ns",
+      "10 ns",
       "2 ns",
       "15 ns"
     ],
@@ -1864,9 +1864,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "UltraSPARC III protsessori nechta konveyerga ega?",
     "options": [
+      "Oltita konveyer",
       "To'rtta konveyer",
       "Uchta konveyer",
-      "Oltita konveyer",
       "Beshtа konveyer"
     ],
     "answer": "Oltita konveyer"
@@ -1876,10 +1876,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel Core i7 protsessorida L1 kesh xotiralarning tuzilishi qanday?",
     "options": [
+      "Buyruqlar uchun 8 Kbayt, ma'lumotlar uchun 32 Kbayt",
       "Umumiy 32 Kbaytli birlashtirilgan kesh",
-      "Buyruqlar va ma'lumotlar uchun alohida-alohida 32 Kbaytli kesh",
       "Umumiy 64 Kbaytli birlashtirilgan kesh",
-      "Buyruqlar uchun 8 Kbayt, ma'lumotlar uchun 32 Kbayt"
+      "Buyruqlar va ma'lumotlar uchun alohida-alohida 32 Kbaytli kesh"
     ],
     "answer": "Buyruqlar va ma'lumotlar uchun alohida-alohida 32 Kbaytli kesh"
   },
@@ -1888,10 +1888,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "OMAP4430 protsessorining noyob texnik xususiyati qanday?",
     "options": [
-      "Juda kam energiya sarflagan holda katta hajmdagi hisoblashlarni bajarishi",
       "64-razryadli hisoblashni birinchi qo'llashi",
-      "Barcha turdagi xotiralarni o'z ichiga olmasligi",
-      "16 ta yadroli tuzilishi"
+      "16 ta yadroli tuzilishi",
+      "Juda kam energiya sarflagan holda katta hajmdagi hisoblashlarni bajarishi",
+      "Barcha turdagi xotiralarni o'z ichiga olmasligi"
     ],
     "answer": "Juda kam energiya sarflagan holda katta hajmdagi hisoblashlarni bajarishi"
   },
@@ -1902,8 +1902,8 @@
     "options": [
       "Flesh – konfiguratsiya, statik – buyruqlar, EEPROM – vaqtincha ma'lumotlar",
       "Flesh – buyruqlar kodi, statik xotira – vaqtincha o'zgaruvchilar, EEPROM – konfiguratsiya ma'lumotlari",
-      "Uchala xotira ham bir xil ma'lumotlarni nusxalab saqlaydi",
-      "Flesh – ma'lumotlar, statik – buyruqlar, EEPROM – ish natijalari"
+      "Flesh – ma'lumotlar, statik – buyruqlar, EEPROM – ish natijalari",
+      "Uchala xotira ham bir xil ma'lumotlarni nusxalab saqlaydi"
     ],
     "answer": "Flesh – buyruqlar kodi, statik xotira – vaqtincha o'zgaruvchilar, EEPROM – konfiguratsiya ma'lumotlari"
   },
@@ -1913,9 +1913,9 @@
     "question": "ILLIAC IV kompyuteri Flin klassifikatsiyasiga ko'ra qanday arxitekturaga mansub?",
     "options": [
       "MISD – ko'p buyruqlar, bitta ma'lumot oqimi",
-      "SIMD – bitta buyruqlar oqimi, ko'p ma'lumotlar oqimi",
+      "SISD – bitta buyruq va bitta ma'lumot oqimi",
       "MIMD – ko'p buyruqlar va ma'lumotlar oqimi",
-      "SISD – bitta buyruq va bitta ma'lumot oqimi"
+      "SIMD – bitta buyruqlar oqimi, ko'p ma'lumotlar oqimi"
     ],
     "answer": "SIMD – bitta buyruqlar oqimi, ko'p ma'lumotlar oqimi"
   },
@@ -1925,9 +1925,9 @@
     "question": "Matritsali protsessor va multiprotsessorning asosiy farqi nima?",
     "options": [
       "Matritsali protsessor yagona boshqarish bloki ostida bir xil amallar bajarsa, multiprotsessor umumiy xotirada parallel ishlovchi protsessorlar to'plami",
-      "Matritsali protsessor umumiy xotiradan foydalanadi",
       "Multiprotsessor yalniz ilmiy hisoblashlar uchun mo'ljallangan",
-      "Multiprotsessor kamroq protsessorlardan iborat"
+      "Multiprotsessor kamroq protsessorlardan iborat",
+      "Matritsali protsessor umumiy xotiradan foydalanadi"
     ],
     "answer": "Matritsali protsessor yagona boshqarish bloki ostida bir xil amallar bajarsa, multiprotsessor umumiy xotirada parallel ishlovchi protsessorlar to'plami"
   },
@@ -1936,10 +1936,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "UltraSPARC III ning L2 kesh xotirasining Pentium 4 nikidan asosiy farqi nima?",
     "options": [
-      "Ularning kesh hajmlari bir xil",
       "Pentium 4 da kesh hajmi kattaroq",
+      "Pentium 4 da ham hajmni o'zgartirish mumkin",
       "UltraSPARC III da 1 dan 8 Mbaytgacha o'zgartirilishi mumkin; Pentium 4 da esa 512 Kbayt o'zgarmas",
-      "Pentium 4 da ham hajmni o'zgartirish mumkin"
+      "Ularning kesh hajmlari bir xil"
     ],
     "answer": "UltraSPARC III da 1 dan 8 Mbaytgacha o'zgartirilishi mumkin; Pentium 4 da esa 512 Kbayt o'zgarmas"
   },
@@ -1948,10 +1948,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "MMX buyruqlar to'plami qanday maqsad uchun ishlab chiqilgan?",
     "options": [
-      "Tarmoq ma'lumotlarini ishlovchi uchun",
       "3D grafik ma'lumotlarni ishlash uchun",
-      "Tovush va video ma'lumotlarni ishlash tezligini oshirish uchun",
-      "Kriptografik amallarni tezlashtirish uchun"
+      "Kriptografik amallarni tezlashtirish uchun",
+      "Tarmoq ma'lumotlarini ishlovchi uchun",
+      "Tovush va video ma'lumotlarni ishlash tezligini oshirish uchun"
     ],
     "answer": "Tovush va video ma'lumotlarni ishlash tezligini oshirish uchun"
   },
@@ -1960,10 +1960,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "SPARC so'zi nimaning qisqartmasi?",
     "options": [
-      "Single Processor Architecture",
+      "Scalable Processor ARCitecture",
       "Standard RISC Architecture",
-      "Super Parallel Architecture",
-      "Scalable Processor ARCitecture"
+      "Single Processor Architecture",
+      "Super Parallel Architecture"
     ],
     "answer": "Scalable Processor ARCitecture"
   },
@@ -1972,10 +1972,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "ATmega168 mikrokontrollerining chiqish oyoqchalari soni nechta?",
     "options": [
-      "1155 ta",
-      "28 ta",
       "478 ta",
-      "40 ta"
+      "40 ta",
+      "1155 ta",
+      "28 ta"
     ],
     "answer": "28 ta"
   },
@@ -1984,10 +1984,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Intel Core i7 protsessorida L3 kesh xotirasidan qanday foydalaniladi?",
     "options": [
-      "L3 kesh mavjud bo'lganda L2 kesh kerak emas",
+      "Har bir yadro o'zining alohida L3 keshiga ega",
       "Barcha yadrolar L3 keshdan birgalikda foydalanadi",
-      "L3 kesh asosan tashqi qurilmalar uchun zaxira bo'lib xizmat qiladi",
-      "Har bir yadro o'zining alohida L3 keshiga ega"
+      "L3 kesh mavjud bo'lganda L2 kesh kerak emas",
+      "L3 kesh asosan tashqi qurilmalar uchun zaxira bo'lib xizmat qiladi"
     ],
     "answer": "Barcha yadrolar L3 keshdan birgalikda foydalanadi"
   },
@@ -1996,8 +1996,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "SSE (Streaming SIMD Extensions) buyruqlar to'plami nima uchun mo'ljallangan?",
     "options": [
-      "Tarmoq paketlarini ishlovchi uchun",
       "Multimedia ma'lumotlarni oqimlar tarzida tezkor ishlash uchun",
+      "Tarmoq paketlarini ishlovchi uchun",
       "Protsessor registrlarini kengaytirish uchun",
       "Kriptografik amallarni bajarish uchun"
     ],
@@ -2009,9 +2009,9 @@
     "question": "Intel Core i7 ning dastlabki versiyasi qanday arxitekturaga asoslangan edi?",
     "options": [
       "NetBurst arxitekturasi",
-      "Sandy Bridge arxitekturasi",
+      "P6 arxitekturasi",
       "Nehalem arxitekturasi (4-ta yadroli)",
-      "P6 arxitekturasi"
+      "Sandy Bridge arxitekturasi"
     ],
     "answer": "Nehalem arxitekturasi (4-ta yadroli)"
   },
@@ -2021,8 +2021,8 @@
     "question": "UltraSPARC III protsessori 1,2 GGs chastotada ishlaganda qanday tezlikdagi protsessori bilan teng bo'ladi?",
     "options": [
       "4,8 GGs chastotali protsessor bilan teng (har siklda 4 buyruq bajara olganligi sababli)",
-      "1,2 GGs bilan teng",
       "2,4 GGs bilan teng",
+      "1,2 GGs bilan teng",
       "3,6 GGs bilan teng"
     ],
     "answer": "4,8 GGs chastotali protsessor bilan teng (har siklda 4 buyruq bajara olganligi sababli)"
@@ -2032,9 +2032,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "OMAP4430 protsessori qanday yadrolarga asoslangan va qanday chastotada ishlaydi?",
     "options": [
+      "Ikkita SPARC yadro, 600 MGs chastota",
       "To'rtta ARM A9 yadro, 2 GGs chastota",
       "Bitta ARM Cortex yadro, 1,5 GGs chastota",
-      "Ikkita SPARC yadro, 600 MGs chastota",
       "Ikkita ARM A9 yadro, 1 GGs chastota"
     ],
     "answer": "Ikkita ARM A9 yadro, 1 GGs chastota"
@@ -2044,10 +2044,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assembler tilida ADD, SUB, MOV kabi qisqartirilgan so'zlar qanday nomlanadi?",
     "options": [
-      "Operandlar",
-      "Direktivalar",
+      "Mnemonikalar",
       "Metkalar",
-      "Mnemonikalar"
+      "Direktivalar",
+      "Operandlar"
     ],
     "answer": "Mnemonikalar"
   },
@@ -2056,10 +2056,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assembler tilida metka (метка) qanday maqsadda qo'llaniladi?",
     "options": [
-      "O'zgaruvchilarning boshlang'ich qiymatlarini belgilash uchun",
-      "Makroslarni aniqlash uchun",
       "Xotira adreslarini simvolli nomlar bilan ifodalash uchun",
-      "Dasturning yakunlanishini ko'rsatish uchun"
+      "Dasturning yakunlanishini ko'rsatish uchun",
+      "Makroslarni aniqlash uchun",
+      "O'zgaruvchilarning boshlang'ich qiymatlarini belgilash uchun"
     ],
     "answer": "Xotira adreslarini simvolli nomlar bilan ifodalash uchun"
   },
@@ -2068,10 +2068,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assembler tilida yozilgan dasturni mashina kodiga o'tkazish qanday jarayon deyiladi?",
     "options": [
-      "Kompilyatsiya (yuqori sath tillarida)",
-      "Bajariladigan holda to'g'ridan-to'g'ri yozish",
       "Interpretatsiya",
-      "Translyasiya (assemblerlash)"
+      "Translyasiya (assemblerlash)",
+      "Kompilyatsiya (yuqori sath tillarida)",
+      "Bajariladigan holda to'g'ridan-to'g'ri yozish"
     ],
     "answer": "Translyasiya (assemblerlash)"
   },
@@ -2080,10 +2080,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Direktiva (directive) assembler tilida nimani anglatadi?",
     "options": [
-      "Assemblerning o'zi uchun mo'ljallangan buyruqlar",
+      "Protsessorda bajariladigan mashina buyruqlari",
       "Xotirani boshqarish uchun ishlatiladigan buyruqlar",
       "Ma'lumotlarni kiritish-chiqarish uchun ishlatiladigan buyruqlar",
-      "Protsessorda bajariladigan mashina buyruqlari"
+      "Assemblerning o'zi uchun mo'ljallangan buyruqlar"
     ],
     "answer": "Assemblerning o'zi uchun mo'ljallangan buyruqlar"
   },
@@ -2092,10 +2092,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assemblerlash jarayoni ikkita o'tishda amalga oshiriladi. Birinchi o'tishda nima bajariladi?",
     "options": [
+      "Ma'lumotlar va buyruqlar xotiraga yoziladi",
       "Ob'yektli dastur hosil qilinadi",
       "Xatolar aniqlanadi va tuzatiladi",
-      "Dasturda ishtirok etadigan barcha simvolli nomlar uchun simvollar jadvali tuziladi",
-      "Ma'lumotlar va buyruqlar xotiraga yoziladi"
+      "Dasturda ishtirok etadigan barcha simvolli nomlar uchun simvollar jadvali tuziladi"
     ],
     "answer": "Dasturda ishtirok etadigan barcha simvolli nomlar uchun simvollar jadvali tuziladi"
   },
@@ -2104,10 +2104,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Makros (macro) assembler tilida nimani anglatadi?",
     "options": [
-      "Protsessorda bajariladigan oddiy buyruq",
-      "Dastur osti dasturini chaqirish usuli",
+      "Nomlangan buyruqlar ketma-ketligi, keyinchalik shu nom bilan qayta chaqirish mumkin",
       "Xotiradagi o'zgaruvchilarni aniqlash usuli",
-      "Nomlangan buyruqlar ketma-ketligi, keyinchalik shu nom bilan qayta chaqirish mumkin"
+      "Protsessorda bajariladigan oddiy buyruq",
+      "Dastur osti dasturini chaqirish usuli"
     ],
     "answer": "Nomlangan buyruqlar ketma-ketligi, keyinchalik shu nom bilan qayta chaqirish mumkin"
   },
@@ -2116,10 +2116,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Joylashtiruvchi dastur (компоновщик) qanday vazifani bajaradi?",
     "options": [
-      "Protsessorni test qilish uchun maxsus buyruqlar hosil qiladi",
+      "Assembler kodini C tiliga o'giradi",
       "Alohida translyasiya qilingan dastur bo'laklarini bitta bajariladigan faylga birlashtiradi",
       "Dasturlardagi xatolarni avtomatik tuzatadi",
-      "Assembler kodini C tiliga o'giradi"
+      "Protsessorni test qilish uchun maxsus buyruqlar hosil qiladi"
     ],
     "answer": "Alohida translyasiya qilingan dastur bo'laklarini bitta bajariladigan faylga birlashtiradi"
   },
@@ -2129,9 +2129,9 @@
     "question": "Assembler tilida dasturlashning C yoki Java kabi tillarga nisbatan asosiy afzalliklari qaysilar?",
     "options": [
       "Barcha protsessorlarda o'zgarishsiz ishlaydi",
+      "Yozish osonroq va dastur tushunarliroq",
       "Xatolarni avtomatik aniqlash imkoniyati bor",
-      "Kamroq xotirani egallaydi, tezroq ishlaydi va apparat vositalariga to'g'ridan-to'g'ri murojaat imkoni bor",
-      "Yozish osonroq va dastur tushunarliroq"
+      "Kamroq xotirani egallaydi, tezroq ishlaydi va apparat vositalariga to'g'ridan-to'g'ri murojaat imkoni bor"
     ],
     "answer": "Kamroq xotirani egallaydi, tezroq ishlaydi va apparat vositalariga to'g'ridan-to'g'ri murojaat imkoni bor"
   },
@@ -2140,10 +2140,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Buyruqlar adresi sanagichi (ILC) assemblerlash jarayonida qanday vazifani bajaradi?",
     "options": [
-      "Stekdagi ma'lumotlar sonini hisoblaydi",
-      "Har bir buyruqning xotiradagi adresini kuzatib boradi",
       "Ishlab chiqarilgan mashina kodlarini sanaydi",
-      "Bajarilayotgan buyruqning protsessordagi adresini ko'rsatadi"
+      "Stekdagi ma'lumotlar sonini hisoblaydi",
+      "Bajarilayotgan buyruqning protsessordagi adresini ko'rsatadi",
+      "Har bir buyruqning xotiradagi adresini kuzatib boradi"
     ],
     "answer": "Har bir buyruqning xotiradagi adresini kuzatib boradi"
   },
@@ -2152,8 +2152,8 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Parametrli makroslar oddiy makroslardan qanday farqlanadi?",
     "options": [
-      "Direktiva emas, balki buyruq sifatida ishlatiladi",
       "Yalniz bir marta ishlatilishi mumkin",
+      "Direktiva emas, balki buyruq sifatida ishlatiladi",
       "Turli o'zgaruvchilar bilan chaqirilishi mumkin",
       "Ichida boshqa makros bo'lmasligi kerak"
     ],
@@ -2164,10 +2164,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assembler tilida yozilgan dasturlardan hozirda qaysi sohalarda asosan foydalaniladi?",
     "options": [
-      "Yalniz ta'lim maqsadlarida",
-      "Yalniz superkompyuterlarda",
       "Smart-kartalar, uyali telefonlar, drayverlar va BIOS muolajalarida",
-      "Yalniz raqamli signal ishlovchilarida"
+      "Yalniz ta'lim maqsadlarida",
+      "Yalniz raqamli signal ishlovchilarida",
+      "Yalniz superkompyuterlarda"
     ],
     "answer": "Smart-kartalar, uyali telefonlar, drayverlar va BIOS muolajalarida"
   },
@@ -2176,10 +2176,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assemblerlashning ikkinchi o'tishida nima bajariladi?",
     "options": [
-      "Ob'yektli dastur hosil qilinadi va assembler protokoli chiqariladi",
       "Xatolar ro'yxati tayyorlanadi",
-      "Ma'lumotlar segmenti aniqlanadi",
-      "Simvollar jadvali tuziladi"
+      "Ob'yektli dastur hosil qilinadi va assembler protokoli chiqariladi",
+      "Simvollar jadvali tuziladi",
+      "Ma'lumotlar segmenti aniqlanadi"
     ],
     "answer": "Ob'yektli dastur hosil qilinadi va assembler protokoli chiqariladi"
   },
@@ -2188,10 +2188,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assembler tilida operator (оператор) qanday tuzilishdan iborat?",
     "options": [
-      "Metka, amal kodi, operandlar va izohdan iborat to'rt qismli yozuv",
-      "Amal kodi, operandlar va direktivalारdan",
+      "Faqat metka va amal kodidan",
       "Faqat amal kodi va operandlardan",
-      "Faqat metka va amal kodidan"
+      "Metka, amal kodi, operandlar va izohdan iborat to'rt qismli yozuv",
+      "Amal kodi, operandlar va direktivalारdan"
     ],
     "answer": "Metka, amal kodi, operandlar va izohdan iborat to'rt qismli yozuv"
   },
@@ -2200,10 +2200,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assembler tilida simvollar jadvali (symbol table) nima uchun zarur?",
     "options": [
-      "Translyasiya paytidagi xatolarni qayd etish uchun",
       "Metkalar va o'zgaruvchilar nomlarining xotiradagi muqobil adreslarini saqlash uchun",
-      "Makroslar ta'riflarini saqlash uchun",
-      "Protsessor buyruqlari natijalari to'g'riligini tekshirish uchun"
+      "Translyasiya paytidagi xatolarni qayd etish uchun",
+      "Protsessor buyruqlari natijalari to'g'riligini tekshirish uchun",
+      "Makroslar ta'riflarini saqlash uchun"
     ],
     "answer": "Metkalar va o'zgaruvchilar nomlarining xotiradagi muqobil adreslarini saqlash uchun"
   },
@@ -2212,10 +2212,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Assembler tilini o'rganishning arxitekturaviy ahamiyati nima?",
     "options": [
-      "Yuqori sath tillarida tezroq dastur yozishga imkon beradi",
-      "Kompyuterning qanday ishlashini va uning ichki arxitekturasi qanday ekanligini mukammal tushunish imkonini beradi",
       "Faqat past darajadagi dasturlar yozishni osonlashtiradi",
-      "Protsessor registrlari tuzilishini o'rganish uchun zarur"
+      "Protsessor registrlari tuzilishini o'rganish uchun zarur",
+      "Yuqori sath tillarida tezroq dastur yozishga imkon beradi",
+      "Kompyuterning qanday ishlashini va uning ichki arxitekturasi qanday ekanligini mukammal tushunish imkonini beradi"
     ],
     "answer": "Kompyuterning qanday ishlashini va uning ichki arxitekturasi qanday ekanligini mukammal tushunish imkonini beradi"
   },
@@ -2224,10 +2224,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kompyuter shinasi uch qismdan iborat. Bu qismlar qaysilar?",
     "options": [
-      "ISA, PCI va USB qismlari",
-      "Protsessor, xotira va disk ulash qismlari",
       "Ma'lumotlar, adreslar va boshqarish signallari uzatiladigan qismlar",
-      "Klaviatura, monitor va printer ulash qismlari"
+      "Klaviatura, monitor va printer ulash qismlari",
+      "ISA, PCI va USB qismlari",
+      "Protsessor, xotira va disk ulash qismlari"
     ],
     "answer": "Ma'lumotlar, adreslar va boshqarish signallari uzatiladigan qismlar"
   },
@@ -2237,9 +2237,9 @@
     "question": "USB (Universal Serial Bus) qanday qurilmalar uchun ishlab chiqilgan?",
     "options": [
       "Yuqori tezlikdagi SCSI disklarni ulash uchun",
-      "Past tezliklarga ega qurilmalar (sichqoncha, klaviatura, printer) uchun universal shina",
       "Protsessor va asosiy xotira o'rtasidagi aloqa uchun",
-      "Grafik ma'lumotlarni tezkor uzatish uchun"
+      "Grafik ma'lumotlarni tezkor uzatish uchun",
+      "Past tezliklarga ega qurilmalar (sichqoncha, klaviatura, printer) uchun universal shina"
     ],
     "answer": "Past tezliklarga ega qurilmalar (sichqoncha, klaviatura, printer) uchun universal shina"
   },
@@ -2248,10 +2248,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "AGP (Accelerated Graphics Port) qanday maqsadda ishlab chiqilgan?",
     "options": [
-      "Monitor bilan ishlash uchun grafik ma'lumotlarni tezkor uzatish uchun",
-      "Barcha tashqi qurilmalarni birlashtirish uchun",
+      "Disklarni protsessor bilan tezkor ulash uchun",
       "Tarmoq kartalarini ulash uchun",
-      "Disklarni protsessor bilan tezkor ulash uchun"
+      "Barcha tashqi qurilmalarni birlashtirish uchun",
+      "Monitor bilan ishlash uchun grafik ma'lumotlarni tezkor uzatish uchun"
     ],
     "answer": "Monitor bilan ishlash uchun grafik ma'lumotlarni tezkor uzatish uchun"
   },
@@ -2260,10 +2260,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Modem qanday vazifani bajaradi?",
     "options": [
-      "Disklarni protsessorsga ulaadi",
       "Ma'lumotlarni keshga yuklaydi",
-      "Tarmoq kartasini boshqaradi",
-      "Ikkilik ma'lumotlarni telefon liniyasi orqali uzatish uchun modulyasiya va demodulyasiya qiladi"
+      "Ikkilik ma'lumotlarni telefon liniyasi orqali uzatish uchun modulyasiya va demodulyasiya qiladi",
+      "Disklarni protsessorsga ulaadi",
+      "Tarmoq kartasini boshqaradi"
     ],
     "answer": "Ikkilik ma'lumotlarni telefon liniyasi orqali uzatish uchun modulyasiya va demodulyasiya qiladi"
   },
@@ -2272,10 +2272,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Sinxron shina va asinxron shinaning asosiy farqi nima?",
     "options": [
-      "Sinxron shinada kvarsli generator tomonidan hosil qilingan impulslar bilan boshqariladi; asinxronda bunday generator ishlatilmaydi",
-      "Asinxron shina ko'proq qurilmalarni qo'llab-quvvatlaydi",
+      "Sinxron shina yalniz sekin qurilmalar uchun mos",
       "Sinxron shina yalniz parallel ma'lumot uzatadi",
-      "Sinxron shina yalniz sekin qurilmalar uchun mos"
+      "Asinxron shina ko'proq qurilmalarni qo'llab-quvvatlaydi",
+      "Sinxron shinada kvarsli generator tomonidan hosil qilingan impulslar bilan boshqariladi; asinxronda bunday generator ishlatilmaydi"
     ],
     "answer": "Sinxron shinada kvarsli generator tomonidan hosil qilingan impulslar bilan boshqariladi; asinxronda bunday generator ishlatilmaydi"
   },
@@ -2284,10 +2284,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "PCI shinasining dastlabki versiyasining o'tkazish qobiliyati qancha edi?",
     "options": [
-      "66 Mbayt/sek",
       "528 Mbayt/sek",
-      "133 Mbayt/sek (32 bit, 33 MGs)",
-      "16 Mbayt/sek"
+      "16 Mbayt/sek",
+      "66 Mbayt/sek",
+      "133 Mbayt/sek (32 bit, 33 MGs)"
     ],
     "answer": "133 Mbayt/sek (32 bit, 33 MGs)"
   },
@@ -2296,10 +2296,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "PCI Express texnologiyasining asosiy mohiyati qanday?",
     "options": [
-      "ISA shinasining yangi almashtiruvchisi",
-      "PCI shinasining faqat kengroq versiyasi",
+      "USB shinasining tezkor varianti",
       "Parallel shinalar o'rniga ma'lumotlarni ketma-ket tarzda uzatuvchi bog'lanishlardan foydalanish",
-      "USB shinasining tezkor varianti"
+      "PCI shinasining faqat kengroq versiyasi",
+      "ISA shinasining yangi almashtiruvchisi"
     ],
     "answer": "Parallel shinalar o'rniga ma'lumotlarni ketma-ket tarzda uzatuvchi bog'lanishlardan foydalanish"
   },
@@ -2308,10 +2308,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "USB shinasining kabeli nechta o'tkazgichdan iborat va ular qanday maqsadlarga ajratilgan?",
     "options": [
-      "8 ta: 4 ta ma'lumot, 4 ta boshqarish",
-      "2 ta: 1 ta ma'lumot, 1 ta ta'minot",
       "4 ta: 2 ta ma'lumot, 1 ta +5V ta'minot, 1 ta yer ulash",
-      "6 ta: 4 ta ma'lumot, 2 ta ta'minot"
+      "8 ta: 4 ta ma'lumot, 4 ta boshqarish",
+      "6 ta: 4 ta ma'lumot, 2 ta ta'minot",
+      "2 ta: 1 ta ma'lumot, 1 ta ta'minot"
     ],
     "answer": "4 ta: 2 ta ma'lumot, 1 ta +5V ta'minot, 1 ta yer ulash"
   },
@@ -2320,9 +2320,9 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "ISA shinasining chastotasi va maksimal ma'lumot uzatish tezligi qancha?",
     "options": [
+      "8,33 MGs, 16,7 Mbayt/sek",
       "100 MGs, 800 Mbayt/sek",
       "33 MGs, 133 Mbayt/sek",
-      "8,33 MGs, 16,7 Mbayt/sek",
       "66 MGs, 528 Mbayt/sek"
     ],
     "answer": "8,33 MGs, 16,7 Mbayt/sek"
@@ -2332,10 +2332,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "Kontroller (MKCHQ kontrolleri) qanday asosiy vazifani bajaradi?",
     "options": [
-      "Ma'lumotlarni keshda saqlaydi",
       "Kelayotgan bitlar oqimini so'zlarga aylantirib xotiraga yozadi va qurilmani boshqaradi",
+      "Yalniz shinani boshqaradi",
       "Protsessor va xotira o'rtasidagi vositachi vazifasini bajaradi",
-      "Yalniz shinani boshqaradi"
+      "Ma'lumotlarni keshda saqlaydi"
     ],
     "answer": "Kelayotgan bitlar oqimini so'zlarga aylantirib xotiraga yozadi va qurilmani boshqaradi"
   },
@@ -2344,10 +2344,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "USB 2.0 versiyasining ma'lumotlarni uzatish tezligi qancha?",
     "options": [
-      "1,5 Mbayt/sek",
+      "480 Mbayt/sek",
       "12 Mbayt/sek",
-      "120 Mbayt/sek",
-      "480 Mbayt/sek"
+      "1,5 Mbayt/sek",
+      "120 Mbayt/sek"
     ],
     "answer": "480 Mbayt/sek"
   },
@@ -2369,9 +2369,9 @@
     "question": "Pentium 4 asosida qurilgan zamonaviy kompyuterdagi shinalar aro ko'prik (hub) qanday qurilmalarni birlashtiradi?",
     "options": [
       "Tashqi qurilmalarni USB orqali",
+      "Protsessor, asosiy xotira, grafik adapter, ATAPI kontrolleri va PCI shinasi",
       "ISA va PCI shinalarini",
-      "Yalniz protsessor va xotirani",
-      "Protsessor, asosiy xotira, grafik adapter, ATAPI kontrolleri va PCI shinasi"
+      "Yalniz protsessor va xotirani"
     ],
     "answer": "Protsessor, asosiy xotira, grafik adapter, ATAPI kontrolleri va PCI shinasi"
   },
@@ -2380,10 +2380,10 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "1024×768 piksel o'lchamdagi rangili harakatlanuvchi tasvir uchun qancha ma'lumot uzatish tezligi zarur?",
     "options": [
-      "528 Mbayt/sek",
-      "Kamida 135 Mbayt/sek (bir yo'nalishda 67,5 Mbayt/sek)",
+      "16,7 Mbayt/sek",
       "33 Mbayt/sek",
-      "16,7 Mbayt/sek"
+      "Kamida 135 Mbayt/sek (bir yo'nalishda 67,5 Mbayt/sek)",
+      "528 Mbayt/sek"
     ],
     "answer": "Kamida 135 Mbayt/sek (bir yo'nalishda 67,5 Mbayt/sek)"
   },
@@ -2392,11 +2392,2026 @@
     "subject": "Kompyuterni tashkil etish",
     "question": "PCI Express ning ISA/EISA/PCI dan farqli topologiyaga o'tishining afzalligi nima?",
     "options": [
-      "Barcha qurilmalar uchun bitta umumiy kanal ko'proq qurilmalarni qo'llab-quvvatlaydi",
       "Kommutatsiyalanadigan topologiya har bir qurilmaga ajratilgan kanalda ma'lumot uzatish imkonini beradi",
-      "PCI Express parallel uzatishga qaytadi",
-      "Shinalari orasidagi to'qnashuvlar yo'qotiladi"
+      "Barcha qurilmalar uchun bitta umumiy kanal ko'proq qurilmalarni qo'llab-quvvatlaydi",
+      "Shinalari orasidagi to'qnashuvlar yo'qotiladi",
+      "PCI Express parallel uzatishga qaytadi"
     ],
     "answer": "Kommutatsiyalanadigan topologiya har bir qurilmaga ajratilgan kanalda ma'lumot uzatish imkonini beradi"
+  },
+  {
+    "id": 201,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritm nima?",
+    "options": [
+      "To’plam elementlarini ifodalash",
+      "amallar ketma-ketligi",
+      "Fayllarga murojaat",
+      "Obyektlar majmuasini ifodalash"
+    ],
+    "answer": "amallar ketma-ketligi"
+  },
+  {
+    "id": 202,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ma’lumotlar tuzilmasi nima",
+    "options": [
+      "bu ma’lumot elementlari majmuasi",
+      "bu elementlar orasidagi munosabatlar amali",
+      "bu ma’lumot elementlari va ular orasidagi relyasion munosabatlar majmuasi",
+      "bu ma’lumot elementlari va ular orasidagi munosabatlar majmuasi"
+    ],
+    "answer": "bu ma’lumot elementlari va ular orasidagi munosabatlar majmuasi"
+  },
+  {
+    "id": 203,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ma’lumotlar tuzilmasi mantiqiy bosqichda ...",
+    "options": [
+      "dasturni yaratish jarayoni tadqiq qilinadi.",
+      "berilgan talabalar bo’yicha algoritmni ishlab chiqilishi tadqiq qilinadi.",
+      "kompyuter xotirasida ma’lumotlarni aks ettirilishi tadqiq qilinadi.",
+      "konkret obyektning qayta ishlash, ularning xussusiyatlari va munosabatlarini tadqiq qilinadi."
+    ],
+    "answer": "berilgan talabalar bo’yicha algoritmni ishlab chiqilishi tadqiq qilinadi."
+  },
+  {
+    "id": 204,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Bir xil tipdagi elementlar majmuasi",
+    "options": [
+      "Massiv",
+      "Yozuv",
+      "To’plam",
+      "Jadval"
+    ],
+    "answer": "Massiv"
+  },
+  {
+    "id": 205,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Turli tipdagi ma’lumotlardan qanday tuzilma xosil qilinadi?",
+    "options": [
+      "Yozuv",
+      "Jadval",
+      "To’plam",
+      "Massiv"
+    ],
+    "answer": "Yozuv"
+  },
+  {
+    "id": 206,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Turli tipdagi ma’lumot maydonlardan iborat tartibli  tuzilmasi",
+    "options": [
+      "Massiv",
+      "To’plam",
+      "Jadval",
+      "Yozuv"
+    ],
+    "answer": "Jadval"
+  },
+  {
+    "id": 207,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Stek tuzilmasida qanday hizmat ko’rsatish turi qullaniladi?",
+    "options": [
+      "FIFO",
+      "FILO",
+      "LILO",
+      "LIFO"
+    ],
+    "answer": "LIFO"
+  },
+  {
+    "id": 208,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Navbat tuzilmasida qanday hizmat ko’rsatish turi qullaniladi?",
+    "options": [
+      "FIFO",
+      "FILO",
+      "LILO",
+      "LIFO"
+    ],
+    "answer": "FIFO"
+  },
+  {
+    "id": 209,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Stekga yangi element qushish funksiyasi qanday belgilanadi",
+    "options": [
+      "Empty",
+      "Push",
+      "Top",
+      "Pop"
+    ],
+    "answer": "Push"
+  },
+  {
+    "id": 210,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Stekdan yuqori elementini o’chirish funksiyasi qanday belgilanadi",
+    "options": [
+      "Push",
+      "Empty",
+      "Pop",
+      "Top"
+    ],
+    "answer": "Pop"
+  },
+  {
+    "id": 211,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Stekdan yuqori elementini o’qitib olish funksiyasi qanday belgilanadi",
+    "options": [
+      "Push",
+      "Empty",
+      "Top",
+      "Pop"
+    ],
+    "answer": "Top"
+  },
+  {
+    "id": 212,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Yarimstatik ma’lumotlar tuzilmasiga nimalar kiradi?",
+    "options": [
+      "Yozuv, Jadval",
+      "Stek, Massiv",
+      "Stek, Dek, Navbat",
+      "Graf. Vektor"
+    ],
+    "answer": "Stek, Dek, Navbat"
+  },
+  {
+    "id": 213,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Funksiyalarning qaysi biri kiritish oqimidan 100 belgini x satrga o’qitadi?",
+    "options": [
+      "gets(x,100);",
+      "cin.getline(x,100);",
+      "getline(cin, x,100);",
+      "getch(x,100);"
+    ],
+    "answer": "cin.getline(x,100);"
+  },
+  {
+    "id": 214,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Stek bu ...",
+    "options": [
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning ikki tomonlama amalga oshiriladi",
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning faqat o’rtasiga amalga oshiriladi",
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning bir tomonidan amalga oshiriladi",
+      "shunday tuzilmaki, u yelementlar qo’shilishi bilan kengayib boradi va elementlarni faqatgina bir tomondan qabul qiladi"
+    ],
+    "answer": "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning bir tomonidan amalga oshiriladi"
+  },
+  {
+    "id": 215,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Navbat bu...",
+    "options": [
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning bir tomonidan amalga oshiriladi",
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning ikki tomonlama amalga oshiriladi",
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning faqat o’rtasiga amalga oshiriladi",
+      "shunday tuzilmaki, u yelementlar qo’shilishi bilan kengayib boradi va elementlarni faqatgina bir tomondan qabul qiladi"
+    ],
+    "answer": "shunday tuzilmaki, u yelementlar qo’shilishi bilan kengayib boradi va elementlarni faqatgina bir tomondan qabul qiladi"
+  },
+  {
+    "id": 216,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Dek bu ...",
+    "options": [
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning ikki tomonlama amalga oshiriladi",
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning faqat o’rtasiga amalga oshiriladi",
+      "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning bir tomonidan amalga oshiriladi",
+      "shunday tuzilmaki, u yelementlar qo’shilishi bilan kengayib boradi va elementlarni faqatgina bir tomondan qabul qiladi"
+    ],
+    "answer": "chiziqli ma’lumotlar tuzilmasi bo’lib, ma’lumotlarni kiritish va chiqarish uning ikki tomonlama amalga oshiriladi"
+  },
+  {
+    "id": 217,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxtga tarif bering",
+    "options": [
+      "FIFO tamoyili asosida ishlaydigan struktura",
+      "bir biriga bog'langan elementlardan tashkil topgan struktura",
+      "Ierarxik ma’lumotlarni saqlash tuzilmasi.",
+      "bir xil turdagi elementlardan tashkil topgan struktura"
+    ],
+    "answer": "Ierarxik ma’lumotlarni saqlash tuzilmasi."
+  },
+  {
+    "id": 218,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ikki bog’lamli ro’yxatlarda Next va Prev ko’rsatkichlari nima uchun ishlatiladi",
+    "options": [
+      "Keyingi va oldingi elementlarini ko’rsatish uchun",
+      "Ro’yxatning oxirini ko’rsatish uchun",
+      "Ro’yxatning boshini ko’rsatish uchun",
+      "Faqat oldingi va undan keyingi elementlarini ko’rsatish uchun"
+    ],
+    "answer": "Keyingi va oldingi elementlarini ko’rsatish uchun"
+  },
+  {
+    "id": 219,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxtni amaliyotda qo'llanilishiga misol berilgan qatorni toping",
+    "options": [
+      "texnikada",
+      "transportda",
+      "Kataloglar, qaror daraxtlari, ierarxik ma'lumotlar.",
+      "iqtisodda"
+    ],
+    "answer": "Kataloglar, qaror daraxtlari, ierarxik ma'lumotlar."
+  },
+  {
+    "id": 220,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Chiziqi qidiruv algoritmida eng yaxshi holat qaysi",
+    "options": [
+      "O log(n)",
+      "O(n^3)",
+      "O(n^2)",
+      "O(1)."
+    ],
+    "answer": "O(1)."
+  },
+  {
+    "id": 221,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Binar qidiruvda qanday metodlar ishlatiladi?",
+    "options": [
+      "faqat rekursiv metod",
+      "to'g'ri javob berilmagan",
+      "faqat iterativ metod",
+      "Iterativ va rekursiv metodlar."
+    ],
+    "answer": "Iterativ va rekursiv metodlar."
+  },
+  {
+    "id": 222,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "… obyektni mazkur obyektga murojaat qilish orqali aniqlashdir.",
+    "options": [
+      "Rekursiya",
+      "Algoritm",
+      "Dastur"
+    ],
+    "answer": "Rekursiya"
+  },
+  {
+    "id": 223,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ma’lumotlar tuzilmasi, tashkil qiluvchi elementlari qaysining o’xshash elementlar bo’lsa, u holda ... deyiladi.",
+    "options": [
+      "Rekursiv ma’lumotlar tuzilmasi",
+      "Statik ma’lumotlar tuzilmasi",
+      "Yarimstatik ma’lumotlar tuzilmasi",
+      "Dinamik ma’lumotlar tuzilmasi"
+    ],
+    "answer": "Rekursiv ma’lumotlar tuzilmasi"
+  },
+  {
+    "id": 224,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Rekursiv funksiyalar apparati kim tomondan kashf qilingan",
+    "options": [
+      "V.Velson",
+      "B.Mandelbrot",
+      "A.Chyorch",
+      "A.Landis"
+    ],
+    "answer": "A.Chyorch"
+  },
+  {
+    "id": 225,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxtsimon tuzilmadagi shunday  elementga murojaat yo’qki, u... tugun xisoblanadi.",
+    "options": [
+      "ildiz",
+      "ildiz bo’lmagan",
+      "oraliq",
+      "so’ngi"
+    ],
+    "answer": "ildiz"
+  },
+  {
+    "id": 226,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxtsimon tuzilmada boshqa elementlarga murojaat bo’lmasa, u... tugun xisoblanadi.",
+    "options": [
+      "ildiz",
+      "oraliq",
+      "terminal",
+      "barg"
+    ],
+    "answer": "barg"
+  },
+  {
+    "id": 227,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qachon daraxt muvozanatlangan xisoblanadi?",
+    "options": [
+      "Agar uning oraliq tugunlari juft qiymatli bo’lsa",
+      "agar uning chap va o’ng qism daraxtlari balandligi farqi 1tadan ko’p bo’lmasa",
+      "agar uning chap va o’ng qism daraxtlari kengligi farqlanmasa",
+      "agar uning chap va o’ng qism daraxtlari barglari teng sonli bo’lsa"
+    ],
+    "answer": "agar uning chap va o’ng qism daraxtlari balandligi farqi 1tadan ko’p bo’lmasa"
+  },
+  {
+    "id": 228,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Chiziqsiz ma’lumotlar tuzilmasiga nimalar kiradi?",
+    "options": [
+      "Yozuv, Jadval",
+      "Daraxt, graf",
+      "Stek, Dek, Navbat",
+      "Graf. Vektor"
+    ],
+    "answer": "Daraxt, graf"
+  },
+  {
+    "id": 229,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxt balandligi – bu ...",
+    "options": [
+      "oraliq elementlari soni",
+      "tugunlar soni",
+      "barglar soni",
+      "daraxt bosqichlari soni"
+    ],
+    "answer": "daraxt bosqichlari soni"
+  },
+  {
+    "id": 230,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxt darajasi – bu ...",
+    "options": [
+      "Tugunlar soni",
+      "Daraxt bosqichlari soni",
+      "Daraxtga tegishli tugunning munosabatlar sonining minimal qiymati",
+      "Daraxtga tegishli tugunning munosabatlar sonining maksimal qiymati"
+    ],
+    "answer": "Daraxtga tegishli tugunning munosabatlar sonining maksimal qiymati"
+  },
+  {
+    "id": 231,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxt uzunligi – bu ...",
+    "options": [
+      "oraliq elementlari soni",
+      "barglar soni",
+      "tugunlar soni",
+      "daraxt bosqichlari soni"
+    ],
+    "answer": "tugunlar soni"
+  },
+  {
+    "id": 232,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Chiziqsiz iyerarxik bog’langan ma’lumotlar tuzilmasi – bu …",
+    "options": [
+      "Ro’yxat",
+      "Daraxt",
+      "Graf",
+      "Lug’at"
+    ],
+    "answer": "Daraxt"
+  },
+  {
+    "id": 233,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritmning umumiylik xususiyatini tushuntirib bering",
+    "options": [
+      "har bir qadam boshqasiga ulangan bo'lishi shart",
+      "to'g'ri javob berilmagan",
+      "algoritm aniq natija berishi kerak",
+      "Algoritm barcha kiritilgan ma'lumotlar uchun ishlashga qodir bo‘lishi kerak."
+    ],
+    "answer": "Algoritm barcha kiritilgan ma'lumotlar uchun ishlashga qodir bo‘lishi kerak."
+  },
+  {
+    "id": 234,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Agar daraxtni tashkil etuvchi element (tugun)lardan faqat ikkita tugun  bilan bog’langan bo’lsa, u holda bunday binar daraxt ... deyiladi.",
+    "options": [
+      "to’liq",
+      "minimal balandlikka ega daraxt",
+      "muvozanatlangan",
+      "Ikkilik"
+    ],
+    "answer": "to’liq"
+  },
+  {
+    "id": 235,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Murrakab obyektlarning xussusiyati va munosabatlarini aks ettiruvchi chiziqsiz ko’p bog’lamli dinamik tuzilmasi.",
+    "options": [
+      "Lug’at",
+      "Ro’yxat",
+      "Graf",
+      "Daraxt"
+    ],
+    "answer": "Graf"
+  },
+  {
+    "id": 236,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qanday konteyner yordamida grafda tubiga qarab ko’rishda qo’llaniladi?",
+    "options": [
+      "dek",
+      "ro’yxat",
+      "stek",
+      "navbat"
+    ],
+    "answer": "stek"
+  },
+  {
+    "id": 237,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qanday konteyner yordamida grafda eniga qarab ko’rishda qo’llaniladi?",
+    "options": [
+      "navbat",
+      "dek",
+      "stek",
+      "ro’yxat"
+    ],
+    "answer": "navbat"
+  },
+  {
+    "id": 238,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Kim tomondan va qaysi yilda graf tushunchasini kiritgan",
+    "options": [
+      "D.Kenig, 1936",
+      "A.Lovli, 1966",
+      "D.Ritchi, 1976",
+      "Ch.Bebidj, 1946"
+    ],
+    "answer": "D.Kenig, 1936"
+  },
+  {
+    "id": 239,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Rekursiyada asosiy holat  (baza  holat) nima?",
+    "options": [
+      "Rekursiyaning to‘xtash nuqtasi.",
+      "rekursiya elementi",
+      "rekursiv chaqiruv bosqichlari",
+      "Rekursiv chaqiruv"
+    ],
+    "answer": "Rekursiyaning to‘xtash nuqtasi."
+  },
+  {
+    "id": 240,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Bironta tugundan boshqa bir tugungacha bo’lgan yonma-yon joylashgan tugunlar ketma-ketligidir bu ... deyiladi.",
+    "options": [
+      "Ilmoq",
+      "Halqa",
+      "Daraja",
+      "Yo’l"
+    ],
+    "answer": "Yo’l"
+  },
+  {
+    "id": 241,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "... – bu boshi va oxiri tutashuvchi tugundan iborat yo’l.",
+    "options": [
+      "Ilmoq",
+      "Yo’l",
+      "Halqa",
+      "Daraja"
+    ],
+    "answer": "Halqa"
+  },
+  {
+    "id": 242,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qidiruvni vazifasi nimadan iborat",
+    "options": [
+      "berilgan argumentga mos keluvchi ma’lumotlarni massiv ichidan topish",
+      "ma’lumot yordamida eng kichik elementni topish",
+      "ma’lumotlar yordamida argumentni topish",
+      "massivda ma’lumot yo’qligini aniqlash"
+    ],
+    "answer": "berilgan argumentga mos keluvchi ma’lumotlarni massiv ichidan topish"
+  },
+  {
+    "id": 243,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Berilgan argumentga mos keluvchi ma’lumotlarni massiv ichidan topish",
+    "options": [
+      "Algoritmlash",
+      "Saralash",
+      "Uslubiyot",
+      "Qidiruv"
+    ],
+    "answer": "Qidiruv"
+  },
+  {
+    "id": 244,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Chiziqli qidiruv g’oyasi nimadan iborat",
+    "options": [
+      "elementlarni ko’rib chiqish ketma-ket ravishda boshidan oxirigacha va aksincha, 2 ta element tashlab qaraladi",
+      "elementlar ketma-ket jadval o’rtasidan boshlab ko’rib chiqiladi",
+      "har bir element ketma-ket ko’rib chiqiladi",
+      "binar daraxt barcha tugunlari ko’rib chiqiladi"
+    ],
+    "answer": "har bir element ketma-ket ko’rib chiqiladi"
+  },
+  {
+    "id": 245,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "O’rinlashtirish usulini ma’nosi  nimadan iborat",
+    "options": [
+      "qo’shni elementlar o’rni almashtiriladi",
+      "topilgan element ro’yxat boshiga joylashtiriladi",
+      "topilgan element o’zidan keyingi element bilan o’rin almashtiriladi",
+      "topilgan element ro’yxat oxiriga joylashtiriladi"
+    ],
+    "answer": "topilgan element ro’yxat boshiga joylashtiriladi"
+  },
+  {
+    "id": 246,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Noyob kalit nima",
+    "options": [
+      "agar jadvalda kaliti mazkur kalitga teng ma’lumot yagona bo’lsa",
+      "agar jadvalda bunday kalitli element mavjud bo’lmasa",
+      "agar ikkita ma’lumot qiymatlari yig’indisi kalitga teng bo’lsa",
+      "agar ikkita ma’lumot qiymatlari farqi kalitga teng bo’lsa"
+    ],
+    "answer": "agar jadvalda kaliti mazkur kalitga teng ma’lumot yagona bo’lsa"
+  },
+  {
+    "id": 247,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ketma-ket qidiruv algoritm tartibi qanday",
+    "options": [
+      "Logarifmik",
+      "Eksponensial",
+      "Chiziqli",
+      "Konstantali"
+    ],
+    "answer": "Chiziqli"
+  },
+  {
+    "id": 248,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Binar qidiruv algoritm tartibi qanday",
+    "options": [
+      "Eksponensial",
+      "Logarifmik",
+      "Chiziqli",
+      "Konstantali"
+    ],
+    "answer": "Logarifmik"
+  },
+  {
+    "id": 249,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Operativ xotirada bajariladigan saralash qanday ataladi",
+    "options": [
+      "qo’shish orqali saralash",
+      "to’liq saralash",
+      "adreslar jadvalini saralash",
+      "ichki saralash"
+    ],
+    "answer": "ichki saralash"
+  },
+  {
+    "id": 250,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritmni tahlil qilishda nimaga e'tibor qaratiladi?",
+    "options": [
+      "faqat vaqt murakkabligi",
+      "faqat xotira murakkabligi",
+      "ishlash ketma ketligi",
+      "Vaqt va xotira murakkabligi"
+    ],
+    "answer": "Vaqt va xotira murakkabligi"
+  },
+  {
+    "id": 251,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Berilgan to’plam elementlarini biror bir tartibda joylashtirish jarayoni",
+    "options": [
+      "Qidiruv",
+      "Uslubiyot",
+      "Saralash",
+      "Algoritmlash"
+    ],
+    "answer": "Saralash"
+  },
+  {
+    "id": 252,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "QuickSort usulining algoritm tartibini ko’rsating",
+    "options": [
+      "Differensial",
+      "Kvadratik",
+      "Chiziqli",
+      "Logarifmik"
+    ],
+    "answer": "Logarifmik"
+  },
+  {
+    "id": 253,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qat’iy usullarning algoritmlar tartibini ko’rsating",
+    "options": [
+      "Kvadratik",
+      "Logarifmik",
+      "Differensial",
+      "Kubik"
+    ],
+    "answer": "Kvadratik"
+  },
+  {
+    "id": 254,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Saralash samaradorligini qaysi mezonlar yordamida aniqlanadi",
+    "options": [
+      "dastur yozishga ketgan vaqt",
+      "amallar soni",
+      "ishlatilayotgan identifikatorlar soni va turlari",
+      "taqqoslashlar va  almashtirishlar soni"
+    ],
+    "answer": "taqqoslashlar va  almashtirishlar soni"
+  },
+  {
+    "id": 255,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qanday saralash usullari qat’iy usullar deb belgilangan?",
+    "options": [
+      "Birlashtirish saralashi; to’g’ridan-to’g’ri tanlash; to’g’ridan-to’g’ri almashtirish.",
+      "Tez saralash, to’g’ridan-to’g’ri tanlash; to’g’ridan-to’g’ri almashtirish.",
+      "to’g’ridan-to’g’ri qo’shish; to’g’ridan-to’g’ri tanlash; to’g’ridan-to’g’ri almashtirish.",
+      "Tez saralash;Shella saralashi;Birlashtirish saralashi."
+    ],
+    "answer": "to’g’ridan-to’g’ri qo’shish; to’g’ridan-to’g’ri tanlash; to’g’ridan-to’g’ri almashtirish."
+  },
+  {
+    "id": 256,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qanday saralash usullari yaxshilangan usullar deb belgilangan?",
+    "options": [
+      "Tez saralash;Shella saralashi;Birlashtirish saralashi.",
+      "Birlashtirish saralashi; to’g’ridan-to’g’ri tanlash; to’g’ridan-to’g’ri almashtirish.",
+      "Tez saralash, to’g’ridan-to’g’ri tanlash; to’g’ridan-to’g’ri almashtirish.",
+      "to’g’ridan-to’g’ri qo’shish; to’g’ridan-to’g’ri tanlash; to’g’ridan-to’g’ri almashtirish."
+    ],
+    "answer": "Tez saralash;Shella saralashi;Birlashtirish saralashi."
+  },
+  {
+    "id": 257,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "BFS algoritim qaysi tuzilmaga qo’llaniladi.",
+    "options": [
+      "Graf (Graph)",
+      "Bog’langan ro’yxat (Linked list)",
+      "Stack",
+      "Massiv (array)"
+    ],
+    "answer": "Graf (Graph)"
+  },
+  {
+    "id": 258,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Graftda BFS qidirish algoritimi uchun qaysi ma’lumotlar tuzilmasidan foydalaniladi.",
+    "options": [
+      "Navbat (Queue)",
+      "Bog’langan ro’yxat (Linked list)",
+      "Stek (Stack)",
+      "Massiv (array)"
+    ],
+    "answer": "Navbat (Queue)"
+  },
+  {
+    "id": 259,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Tez saralash ish vaqti ______ tanloviga bog'liq",
+    "options": [
+      "massivning elementlariga",
+      "yuqoridagilarning hech biri!",
+      "qiymatlar ketma-ketligi (sequence of values)",
+      "tayanish elementi (pivot)"
+    ],
+    "answer": "tayanish elementi (pivot)"
+  },
+  {
+    "id": 260,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Tezkor saralash bilan saralanganda quyidagi ma'lumotlar to'plamining to'g'ri ketma-ketligini ko’rsating. 15,20,10,18 (pivot 10)",
+    "options": [
+      "10, 20,15,18 -10,18,15,20 -10,15,18,20",
+      "15,10,20,18 -15,10,18,20 -10,15,18,20",
+      "15,20,10,18 -15,10,20,18 -10,15,20,18",
+      "10, 20,15,18 -10,15,20,18 -10,15,18,20"
+    ],
+    "answer": "10, 20,15,18 -10,18,15,20 -10,15,18,20"
+  },
+  {
+    "id": 261,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Tez saralash algoritmi qaysi usuldan  foydalanadi",
+    "options": [
+      "Birlashtirish",
+      "Almashtirish",
+      "Tanlash",
+      "bo'lish va zabt eting"
+    ],
+    "answer": "bo'lish va zabt eting"
+  },
+  {
+    "id": 262,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Bo'l va zabt et\" so'zi quyidagilarga ishora qiladi:",
+    "options": [
+      "Ro'yxat kichikroq pastki ro'yxatlarga bo'linadi, so'ngra tartiblangan pastki ro'yxatlar yana birlashtiriladi.",
+      "Ro'yxat faqat ikkita pastki ro'yxatga bo'lingan, hech qachon ko'p yoki kamroq, ular saralanadi va birlashtiriladi.",
+      "Roʻyxat har birida teng miqdordagi elementlarga ega boʻlgan pastki roʻyxatlarga boʻlinadi, soʻngra tartiblangan pastki roʻyxatlar yana birlashtiriladi.",
+      "Ro'yxat bir necha pastki ro'yxatga bo'lingan, ko'p yoki kamroq miqdorda, ular saralanadi va birlashtiriladi."
+    ],
+    "answer": "Ro'yxat kichikroq pastki ro'yxatlarga bo'linadi, so'ngra tartiblangan pastki ro'yxatlar yana birlashtiriladi."
+  },
+  {
+    "id": 263,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ushbu ketma-ketlikda, 11 4 20 45 32 60 98 70, qaysi element tayanish nuqtasi (pivot) qilib olsak samaraliroq?",
+    "options": [
+      "20",
+      "98",
+      "4",
+      "70"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 264,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Quyidagi saralash algoritmlaridan qaysi biri eng tezkor?",
+    "options": [
+      "birlashtirib saralash (merge sort)",
+      "Tanlab saralash (Selection sort)",
+      "tez saralash (quick sort)",
+      "qobiq saralash (Shell sort)"
+    ],
+    "answer": "tez saralash (quick sort)"
+  },
+  {
+    "id": 265,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Tez saralash algoritmining eng yomon vaqt murakkabligi qaysi?",
+    "options": [
+      "O(n log N)",
+      "O(N)",
+      "O(log N)",
+      "O (N^2)"
+    ],
+    "answer": "O (N^2)"
+  },
+  {
+    "id": 266,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Quyidagi usullardan qaysi biri tayanch (pivot) elementini tanlash uchun eng samarali hisoblanadi?",
+    "options": [
+      "oxirgi element",
+      "uchtadan medianani ajratish",
+      "tasodifiy element",
+      "birinchi element"
+    ],
+    "answer": "uchtadan medianani ajratish"
+  },
+  {
+    "id": 267,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Tez saralash (quick sort) algoritmi butun massivni nechta kichik massivga ajratadi?",
+    "options": [
+      "to'rtta",
+      "uchta",
+      "ikkita",
+      "bitta"
+    ],
+    "answer": "ikkita"
+  },
+  {
+    "id": 268,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Median-of-uch bo'linish usuli yordamida berilgan erkli o'zgaruvchidan pivot elementini toping. 8, 1, 4, 9, 6, 3, 5, 2, 7, 0.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "6"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 269,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Pivot elementini tanlashning eng xavfsiz usuli qaysi?",
+    "options": [
+      "pivot sifatida birinchi elementni tanlash",
+      "uchtadan medianani ajratish usuli",
+      "pivot sifatida tasodifiy elementni tanlash",
+      "pivot sifatida oxirgi elementni tanlash"
+    ],
+    "answer": "pivot sifatida tasodifiy elementni tanlash"
+  },
+  {
+    "id": 270,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Tez saralash algoritmining o'rtacha ishlash vaqti qancha?",
+    "options": [
+      "O(n log N)",
+      "O (log N)",
+      "O (N2)",
+      "O (N)"
+    ],
+    "answer": "O(n log N)"
+  },
+  {
+    "id": 271,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Pivot elementini tanlashning eng yomon usuli qaysi?",
+    "options": [
+      "pivot sifatida oxirgi element",
+      "pivot sifatida tasodifiy element",
+      "pivot sifatida birinchi element",
+      "uchtadan medianani ajratish"
+    ],
+    "answer": "pivot sifatida birinchi element"
+  },
+  {
+    "id": 272,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Tez saralash-bu __________",
+    "options": [
+      "qo’shish algoritmi",
+      "dinamik dasturlash algoritmi",
+      "Bo’lib tashla va zabt etish algoritimi",
+      "orqaga qaytish algoritmi"
+    ],
+    "answer": "Bo’lib tashla va zabt etish algoritimi"
+  },
+  {
+    "id": 273,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Quyidagi saralash algoritmidan qaysi biri 1 million elementdan iborat qatorni saralash uchun eng mos keladi?",
+    "options": [
+      "tanlab saralash (selection sort)",
+      "tez saralash (quick sort)",
+      "Pufakchali saralash (Bubble sort)",
+      "Qo'shish saralash (merge sort)"
+    ],
+    "answer": "tez saralash (quick sort)"
+  },
+  {
+    "id": 274,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Binar daraxtni qanday to‘liq aylanib chiqish mumkin?",
+    "options": [
+      "Faol rekursiya orqali",
+      "Iteratsiya orqali",
+      "Yalpi o‘zgaruvchilar yordamida",
+      "Preorder, inorder, postorder usullari bilan"
+    ],
+    "answer": "Preorder, inorder, postorder usullari bilan"
+  },
+  {
+    "id": 275,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritm so’zi al-Xorazmiyning qaysi asarining dastlabki betida keltirilgan?",
+    "options": [
+      "“Arifmetika”",
+      "“Aljabr val muqobala”",
+      "“Surat al-Arz”",
+      "“Zij”"
+    ],
+    "answer": "“Arifmetika”"
+  },
+  {
+    "id": 276,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritmning asosiy xossalari qaysi qatorda to’liq keltirilgan?",
+    "options": [
+      "qisqalik, xususiylik, aniqlik, diskretlik, mantiqlik",
+      "aniqlik, diskretlik, xususiylik, namunaviylik, natijaviylik",
+      "diskretlik, tushunarlilik, aniqlik, ommaviylik, natijaviylik",
+      "tushunarlilik, aniqlik, diskretlik, natijaviylik, xususiylik"
+    ],
+    "answer": "diskretlik, tushunarlilik, aniqlik, ommaviylik, natijaviylik"
+  },
+  {
+    "id": 277,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritmni chekil sondagi oddiy ko’rsatmalar ketma-ketligi shaklida ifodalanishi bitta so’z bilan qanday ifodalanadi?",
+    "options": [
+      "diskretlik",
+      "aniqlik",
+      "xususiylik",
+      "natijaviylik"
+    ],
+    "answer": "diskretlik"
+  },
+  {
+    "id": 278,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritm quyidagi qaysi usullarda ifodalanishi mumkin?",
+    "options": [
+      "so'zlar orqali, formulalar yordamida",
+      "jadval ko’rinishida, dastur shaklida",
+      "barcha javob to’g’ri",
+      "algoritmik tilda, grafik shaklda"
+    ],
+    "answer": "barcha javob to’g’ri"
+  },
+  {
+    "id": 279,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Blok sxema asosiy elementlaridan biri to’g’ri to’rtburchak qay holatda qo’llaniladi?",
+    "options": [
+      "boshlanish, yakunlash, qiymatlarni qayta ishlash yoki dasturni bajarilish jarayonini uzilishida",
+      "shartni tekshirishda",
+      "hisoblash va hisoblash jarayonining ketma-ketligida",
+      "sikl boshida"
+    ],
+    "answer": "hisoblash va hisoblash jarayonining ketma-ketligida"
+  },
+  {
+    "id": 280,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Massiv elementlarining indekslari qanday belgilanadi?",
+    "options": [
+      "Haqiqatga mos kelmaydigan elementlar",
+      "Integer qiymatlar bilan",
+      "Harf bilan",
+      "0 dan boshlanadi (0-indeksli)"
+    ],
+    "answer": "0 dan boshlanadi (0-indeksli)"
+  },
+  {
+    "id": 281,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritm hisoblashning murakkabligini yuqori chegarasini olish uchun qaysi hisoblash modelidan foydalaniladi?",
+    "options": [
+      "umumlashtirish modeli",
+      "abstrakt modeli",
+      "qaror modeli",
+      "saralash modeli"
+    ],
+    "answer": "abstrakt modeli"
+  },
+  {
+    "id": 282,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritmik masalalar uchun hisoblash murakkabligini pastki chegarasini olish uchun qaysi hisoblash modelidan foydalaniladi?",
+    "options": [
+      "abstrakt modeli",
+      "umumlashtirish modeli",
+      "saralash modeli",
+      "qaror modeli"
+    ],
+    "answer": "qaror modeli"
+  },
+  {
+    "id": 283,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritm sarflanayotgan vaqt masalaning o’lchami funksiyasi sifatida algoritmning qiyinligi qanday nomlanadi?",
+    "options": [
+      "abstrakt",
+      "muddat bo’yicha",
+      "vaqt bo’yicha",
+      "asimptotik"
+    ],
+    "answer": "vaqt bo’yicha"
+  },
+  {
+    "id": 284,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritmlarning murakkabligi odatda nimalar bo’yicha baholanadi?",
+    "options": [
+      "bajarilish vaqti yoki ishlatilgan xotira",
+      "matematik modeli yoki diskretligi",
+      "kim ishlata olishi yoki natija",
+      "matn uzunligi yoki qo’llanilgan formulalar"
+    ],
+    "answer": "bajarilish vaqti yoki ishlatilgan xotira"
+  },
+  {
+    "id": 285,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Hisoblash murakkabligining qaysi bahosida hisolash modeli ma’lum narx bilan qabul qilinadigan primitiv amallar orqali aniqlanadi?",
+    "options": [
+      "asimptotik",
+      "aksiomatik",
+      "abstrakt",
+      "logaritmik"
+    ],
+    "answer": "asimptotik"
+  },
+  {
+    "id": 286,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Normal algoritmlar tushunchasi qaysi olim nomi bilan bog’liq?",
+    "options": [
+      "A. Tyuring Chorch",
+      "S. Kli",
+      "A. Markov",
+      "K. Gyodel"
+    ],
+    "answer": "A. Markov"
+  },
+  {
+    "id": 287,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Yo‘nalgan grafning asosiy qo‘llanilishi qayerda?",
+    "options": [
+      "Qidiruv algoritmlarida",
+      "Yo‘nalgan yo‘llar (masalan, kompyuter tarmog‘ida)",
+      "Ma'lumotlar bazalarida",
+      "Chiziqli ro'yxatlar"
+    ],
+    "answer": "Yo‘nalgan yo‘llar (masalan, kompyuter tarmog‘ida)"
+  },
+  {
+    "id": 288,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Murakkablik qanaqa darajalarda bo’ladi?",
+    "options": [
+      "ishlamaydigan, hatoli yoki ishlaydigan",
+      "kichik, o’rtacha yoki katta",
+      "yomon, o’rtacha yoki eng yaxshi",
+      "oson, o’rtacha yoki qiyin"
+    ],
+    "answer": "yomon, o’rtacha yoki eng yaxshi"
+  },
+  {
+    "id": 289,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Muvozanatlashgan ikkilik qidiruv daraxti bu ….",
+    "options": [
+      "AVL daraxt",
+      "Binar daraxt",
+      "Ma'lumotlarning iyerarxik tuzilishi",
+      "B daraxt"
+    ],
+    "answer": "AVL daraxt"
+  },
+  {
+    "id": 290,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "AVL daraxti kim tomonidan va qachon foydalanish taklif qilingan?",
+    "options": [
+      "1959-yil Landis, Bayer, Makkreyt",
+      "1970-yil R.Bayer va E.Makkreyt",
+      "1962-yil Adelson-Velskiy, Landis",
+      "1862-yil R. Bayer va E. Makkreyt"
+    ],
+    "answer": "1962-yil Adelson-Velskiy, Landis"
+  },
+  {
+    "id": 291,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "1970-yilda taklif qilingan daraxt?",
+    "options": [
+      "B daraxt",
+      "Graflar",
+      "Binar daraxt",
+      "AVL daraxt"
+    ],
+    "answer": "B daraxt"
+  },
+  {
+    "id": 292,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritmda qadamlar tartibi qanday bo‘lishi kerak?",
+    "options": [
+      "Kenglik bo'yicha",
+      "Anik va izchil bo‘lishi kerak",
+      "Teskari tartibda",
+      "Tasodifiy tartibda"
+    ],
+    "answer": "Anik va izchil bo‘lishi kerak"
+  },
+  {
+    "id": 293,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "B daraxtlardagi standart amallarini bajarish uchun vaqt nimaga nisbatan mutanosib hisoblandi?",
+    "options": [
+      "Darajasiga",
+      "Balandlikka",
+      "Qiymatlariga",
+      "Uzunliklariga"
+    ],
+    "answer": "Balandlikka"
+  },
+  {
+    "id": 294,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "B daraxtlar asosan nima bilan ishlash uchun yaratilgan?",
+    "options": [
+      "Maxsus disk xotirasi",
+      "Fayllar bilan",
+      "Qattiq disk",
+      "Fayl tizimlari"
+    ],
+    "answer": "Maxsus disk xotirasi"
+  },
+  {
+    "id": 295,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Xesh funksiya sifatini baholash uchun nima ishlatiladi?",
+    "options": [
+      "kolliziya ehtimoli",
+      "xaritalash amali",
+      "polynomial juftlik",
+      "xesh yig‘indisi"
+    ],
+    "answer": "kolliziya ehtimoli"
+  },
+  {
+    "id": 296,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Statik massivning xususiyati nima?",
+    "options": [
+      "Dinamik xotiradan foydalanish",
+      "Faol o'zgaruvchan elementlar",
+      "O‘lchami belgilangan va o‘zgarmaydi",
+      "Uzunlikni o'zgartira olish"
+    ],
+    "answer": "O‘lchami belgilangan va o‘zgarmaydi"
+  },
+  {
+    "id": 297,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Kolliziya nima?",
+    "options": [
+      "mavjud bo‘lgan barcha xesh oralig‘i minimal darajada ishlatilishi",
+      "bir xesh qiymat uchun bir nechta turli xil ma’lumot to’plami",
+      "mavjud bo’lgan barcha xesh oralig’i maksimal darajada ishlatishi",
+      "tasodifiy o’zgaruvchini xaritalash"
+    ],
+    "answer": "bir xesh qiymat uchun bir nechta turli xil ma’lumot to’plami"
+  },
+  {
+    "id": 298,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Bu konteynerga birdaniga ikkita qiymat qo’yish mumkin.",
+    "options": [
+      "map",
+      "list",
+      "deque",
+      "queue"
+    ],
+    "answer": "map"
+  },
+  {
+    "id": 299,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxtning asosiy komponentlari qaysilar?",
+    "options": [
+      "Chiziqli tuzilmalar",
+      "Yarimdagi tugunlar",
+      "Tugunlar va qirralar",
+      "Tugun (Node), qirra (Edge), ildiz (Root), barg (Leaf)"
+    ],
+    "answer": "Tugun (Node), qirra (Edge), ildiz (Root), barg (Leaf)"
+  },
+  {
+    "id": 300,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Map ma’lumot tuzilmasida elementlar sonini qaytarish funksiyasi….",
+    "options": [
+      "empty ()",
+      "clear ()",
+      "size ()",
+      "push ()"
+    ],
+    "answer": "size ()"
+  },
+  {
+    "id": 301,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Kalitli xesh funksiyalar qaysi algoritmda qo’llaniladi?",
+    "options": [
+      "simmetrik shifrlash",
+      "assimetrik shifrlash",
+      "quicksort",
+      "merge sort"
+    ],
+    "answer": "simmetrik shifrlash"
+  },
+  {
+    "id": 302,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Kafolatlangan bardoshlilikka ega bo‘lgan xeshlash algoritmi…",
+    "options": [
+      "MD4",
+      "CRC32",
+      "sha256",
+      "MD5"
+    ],
+    "answer": "sha256"
+  },
+  {
+    "id": 303,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ronald Rivest tomonidan 1992-yilda ishlab chiqilgan xesh funksiya algoritmi.",
+    "options": [
+      "MD 2",
+      "MD 5",
+      "MD 4",
+      "MD 7"
+    ],
+    "answer": "MD 4"
+  },
+  {
+    "id": 304,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Xesh qiymatni hisoblash jarayoni nechchi bosqichdan iborat?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 305,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Xesh qiymat uchun bufer initsializatsiyalash nechinchi bosqichda bo’ladi?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 306,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "CRC 32 ning ifodalanishi.",
+    "options": [
+      "32 bitlik 16ta simvoldan iborat qism bloklar",
+      "32 ta simvoldan iborat bo’lgan 16lik sanoq sistema",
+      "32-bit xesh kod 8ta simvoldan iborat 16lik sanoq sistema",
+      "16 ta 32 bitlik qism bloklar"
+    ],
+    "answer": "32-bit xesh kod 8ta simvoldan iborat 16lik sanoq sistema"
+  },
+  {
+    "id": 307,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Saralashning maqsadi nima?",
+    "options": [
+      "Elementlarni tez va oson topish",
+      "Elementlarni ketmaketligini aniqlash",
+      "Elementlarni muayyan ketma-ketligini nazorat qilish",
+      "Elementlarni topilishini osonlashtirish"
+    ],
+    "answer": "Elementlarni topilishini osonlashtirish"
+  },
+  {
+    "id": 308,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Saralash deb qanday jarayonga aytiladi ?",
+    "options": [
+      "Ma‘lumotlarni xotirada muayyan tartibda ko’chirish",
+      "Ma‘lumotlarni xotirada saqlash",
+      "Barcha javoblar to?g?ri",
+      "Ma‘lumotlarni xotirada muayyan tartibda uning kalitlari bo‘yicha joylashtirish"
+    ],
+    "answer": "Ma‘lumotlarni xotirada muayyan tartibda uning kalitlari bo‘yicha joylashtirish"
+  },
+  {
+    "id": 309,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Saralashning qat’iy usullari nechta turga bolinadi ?",
+    "options": [
+      "4 ta",
+      "1 ta",
+      "3 ta",
+      "5 ta"
+    ],
+    "answer": "3 ta"
+  },
+  {
+    "id": 310,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Oddiy saralash usullarini asosiy uchta sinfga ajratish mumkin ular...",
+    "options": [
+      "Insetr sorts, quick sorts, bubble sorts",
+      "Select sorts, insert sorts, exchange sorts",
+      "Insert sorts, shell sorts, bubble sorts",
+      "Select sorts, bubble sorts, exchange sorts"
+    ],
+    "answer": "Select sorts, insert sorts, exchange sorts"
+  },
+  {
+    "id": 311,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "DFS algoritmini tushuntirib bering",
+    "options": [
+      "Grafga bu algaritmning aloqasi yo'q",
+      "Grafning kenglikka qarab qidiruvi.",
+      "Grafning chuqurlikka qarab qidiruvi.",
+      "Grafning o'ng tomonga qarab  qidiruvi."
+    ],
+    "answer": "Grafning chuqurlikka qarab qidiruvi."
+  },
+  {
+    "id": 312,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Berilgan natijaga erishish uchun qilinishi kerak bo’lgan aniq ko’rsatmalar ketma-ketligiga nima deb ataladi’",
+    "options": [
+      "Algoritm",
+      "Proyekt",
+      "Dasturlash",
+      "Dastur"
+    ],
+    "answer": "Algoritm"
+  },
+  {
+    "id": 313,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ko‘rsatmalari takroriy bajariladigan algoritmlar ... deb ataladi.",
+    "options": [
+      "Takrorlanuvchi algoritmlar",
+      "Chiziqli algoritmlar",
+      "Tarmoqlanuvchi algoritmlar",
+      "Chiziqli va tarmoqlanuvchi algoritmlar"
+    ],
+    "answer": "Takrorlanuvchi algoritmlar"
+  },
+  {
+    "id": 314,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "BFS algoritmini tushuntirib bering",
+    "options": [
+      "Grafga bu algaritmni aloqasi yo'q",
+      "Grafning kenglikka qarab qidiruvi.",
+      "Graflarda chuqurlik bo'yicha qidiruv",
+      "Graflarda chap tomon bo'yicha qidiruv"
+    ],
+    "answer": "Grafning kenglikka qarab qidiruvi."
+  },
+  {
+    "id": 315,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Joylashtirish boyicha saralash bu ......",
+    "options": [
+      "enquire sort",
+      "insertion sort",
+      "can sort",
+      "quick sort"
+    ],
+    "answer": "insertion sort"
+  },
+  {
+    "id": 316,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Tanlash boyicha saralash bu .......",
+    "options": [
+      "Barcha javoblar togri",
+      "selection sort",
+      "insertion sort",
+      "first sort"
+    ],
+    "answer": "selection sort"
+  },
+  {
+    "id": 317,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Stack sozining manosi ?",
+    "options": [
+      "uyum toplam navbat",
+      "uyum g’aram",
+      "tartib saralash ketma-ketlik",
+      "saralash jadval ustunlar"
+    ],
+    "answer": "uyum g’aram"
+  },
+  {
+    "id": 318,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "LIFO tamoyili nimani bildiradi ?",
+    "options": [
+      "ohirgi kelgan birinchi ketadi tartibini",
+      "barcha javoblaf togri algoritmi",
+      "ohirgi kelgan ohirgi ketadi algoritmi",
+      "birinchi kelgan birinchi ketadi algoritmi"
+    ],
+    "answer": "ohirgi kelgan birinchi ketadi tartibini"
+  },
+  {
+    "id": 319,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "FIFO tamoyili nimani bildiradi ?",
+    "options": [
+      "ohirgi kelgan birinchi ketadi algoritmi",
+      "ohirgi kelgan ohirgi ketadi algoritmi",
+      "barcha javoblaf togri algoritmi",
+      "birinchi kelgan birinchi ketadi tartibini"
+    ],
+    "answer": "birinchi kelgan birinchi ketadi tartibini"
+  },
+  {
+    "id": 320,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Navbatda push() funksiya nima maqsadida foydalaniladi?",
+    "options": [
+      "navbatga yangi element qoshish",
+      "navbatdan ohirgi elementni olib tashlash",
+      "elementga murojat",
+      "navbatdan 1 chi elementni olib tashlash"
+    ],
+    "answer": "navbatga yangi element qoshish"
+  },
+  {
+    "id": 321,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Navbatda pop() funksiya nima maqsadida foydalaniladi?",
+    "options": [
+      "ohirgi elementni navbatdan olib tashlash",
+      "birinchi elementni olib tashlash",
+      "yangi qator yaratish",
+      "element nomini o?zgartirish"
+    ],
+    "answer": "birinchi elementni olib tashlash"
+  },
+  {
+    "id": 322,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Navbatda front() funksiya nima maqsadida foydalaniladi?",
+    "options": [
+      "ohirgi elementga murojat",
+      "barcha javoblar togri",
+      "birinchi elementga murojat",
+      "element qoshish"
+    ],
+    "answer": "birinchi elementga murojat"
+  },
+  {
+    "id": 323,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Navbatda back() funksiya nima maqsadida foydalaniladi?",
+    "options": [
+      "elementlarga murojat",
+      "navbat boshidagi elementga murojat",
+      "navbat ohiridagi elementga murojat",
+      "elementlarni qisqartirish"
+    ],
+    "answer": "navbat ohiridagi elementga murojat"
+  },
+  {
+    "id": 324,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Navbatda empty() funksiya nima maqsadida foydalaniladi?",
+    "options": [
+      "navbatni bo'shligini",
+      "navbatlardagi elementlarni",
+      "navbatlarni",
+      "navbat malumotlar strukturasi"
+    ],
+    "answer": "navbatni bo'shligini"
+  },
+  {
+    "id": 325,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "empty() funksiyasida navbat bo'sh bolsa qanday qiymat qaytardi?",
+    "options": [
+      "true",
+      "full",
+      "empty",
+      "nope"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 326,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ro'yhatda push_back() qanday vazifani bajaradi?",
+    "options": [
+      "royhat ohiridan element olib tashlash",
+      "royhat boshidan element olib tashlash",
+      "royhat boshiga element qoshish",
+      "royhat ohiridan element qoshish"
+    ],
+    "answer": "royhat ohiridan element qoshish"
+  },
+  {
+    "id": 327,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ro'yhatda insert() qanday vazifani bajaradi?",
+    "options": [
+      "korsatilgan joyga element qoshish",
+      "korsatilgan joyga element qoshish",
+      "ko’rsatilgan elementni olib tashlash",
+      "korsatilgan joydagi elementni almashtirish"
+    ],
+    "answer": "korsatilgan joyga element qoshish"
+  },
+  {
+    "id": 328,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ro'yhatda front() qanday vazifani bajaradi?",
+    "options": [
+      "birinchi elementga murojat",
+      "elementlar sonini o’zgartish",
+      "yangi element qatorini yaratish",
+      "ohirgi elementga murojat"
+    ],
+    "answer": "birinchi elementga murojat"
+  },
+  {
+    "id": 329,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ro'yhatda unique() qanday vazifani bajaradi?",
+    "options": [
+      "barcha javoblar to’g’ri",
+      "barcha dublikatlarni ochiradi",
+      "dublikatlarni yaratadi",
+      "boshlang’ich elementni ochish"
+    ],
+    "answer": "barcha dublikatlarni ochiradi"
+  },
+  {
+    "id": 330,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Vektorning birinchi va ohirgi yacheykalarini qiymatlarini bilish uchun ...... funksiyalaridan foydalaniladi. Nuqtalar ornini toldiring.",
+    "options": [
+      "pop() va back()",
+      "merge()",
+      "front() va back()",
+      "pfront()"
+    ],
+    "answer": "front() va back()"
+  },
+  {
+    "id": 331,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ro'yhatda pop_front() qanday vazifani bajaradi?",
+    "options": [
+      "ohirgi elementni ochirish",
+      "elementlarni saralah",
+      "Element qoshish",
+      "birinchi elementni o’chirish"
+    ],
+    "answer": "birinchi elementni o’chirish"
+  },
+  {
+    "id": 332,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ro'yhatda back() qanday vazifani bajaradi?",
+    "options": [
+      "ohirgi elementga murojat",
+      "yangi element yaratish",
+      "element qo’shish",
+      "barcha javoblar to’g’ri"
+    ],
+    "answer": "ohirgi elementga murojat"
+  },
+  {
+    "id": 333,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Asimptotik baholashda qaysi faktor eng muhim?",
+    "options": [
+      "Murakkablik (vaqt va xotira)",
+      "Algoritmning kodi",
+      "Masalani echish tezligi",
+      "Kompilyatsiya muddati"
+    ],
+    "answer": "Murakkablik (vaqt va xotira)"
+  },
+  {
+    "id": 334,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Uyum , g’aram, dasta, bog’lam – bu…. Ma'nolarni bildiruvchi  tuzilma nomi ko'rsatilgan javobni toping.",
+    "options": [
+      "LIFO",
+      "NULL",
+      "Stak",
+      "Stack"
+    ],
+    "answer": "Stack"
+  },
+  {
+    "id": 335,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "stackga element qo’shish uchun ….. funksiyadan foydalanamiz?",
+    "options": [
+      "push()",
+      "pop()",
+      "peek()",
+      "top()"
+    ],
+    "answer": "push()"
+  },
+  {
+    "id": 336,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Algoritmni baholashda qaysi tahlil usuli eng ko‘p qo‘llaniladi?",
+    "options": [
+      "Chizmalar tahlili",
+      "Eksperimental tahlil",
+      "Analitik tahlil",
+      "Asimptotik tahlil"
+    ],
+    "answer": "Asimptotik tahlil"
+  },
+  {
+    "id": 337,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "…  bu tezkor xotiradagi saralash.",
+    "options": [
+      "qat’iy saralash",
+      "tashqi saralash",
+      "ichki saralsh",
+      "to’g’ridan to’g’ri saralash"
+    ],
+    "answer": "ichki saralsh"
+  },
+  {
+    "id": 338,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Graf  tuzilmalar qaysi dasturlash muammolarini yechishda keng qo‘llaniladi?",
+    "options": [
+      "Yo‘lni topish, tarmoq analizi, qisqa yo‘lni topish",
+      "Ma'lumotlar bazalari",
+      "Teskari rekursiya",
+      "Chiziqli qidiruv"
+    ],
+    "answer": "Yo‘lni topish, tarmoq analizi, qisqa yo‘lni topish"
+  },
+  {
+    "id": 339,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Binar qidiruv uchun eng yomon holat?",
+    "options": [
+      "O(log n).",
+      "O(n)",
+      "O(1)",
+      "O(n^2)"
+    ],
+    "answer": "O(log n)."
+  },
+  {
+    "id": 340,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Inorder aylanib chiqishning tartibi qanday?",
+    "options": [
+      "Chap tugun -> ildiz -> O‘ng tugun",
+      "Faqat qizil tugunlar chiqariladi",
+      "Tugunlar orasida tartibsizdir",
+      "Chapdan o'ngga, keyin o'ngdan chapga"
+    ],
+    "answer": "Chap tugun -> ildiz -> O‘ng tugun"
+  },
+  {
+    "id": 341,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "…. bu har qanday uch juftligi o’rtasida kamida bitta yo’l mavjud bo’lgan graf.",
+    "options": [
+      "regulyar graf",
+      "yo’naltirilgan graf",
+      "yo’naltirilmagan graf",
+      "bo’g’langan graf"
+    ],
+    "answer": "yo’naltirilgan graf"
+  },
+  {
+    "id": 342,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Preorder aylanib chiqishning afzalligi nima?",
+    "options": [
+      "Barcha tugunlar so'nggi bo'lib ko'riladi",
+      "Faqat yashirin tugunlar ko'riladi",
+      "Hamma tugunlar birinchi ko'riladi",
+      "Tugunni oldin tekshiradi"
+    ],
+    "answer": "Tugunni oldin tekshiradi"
+  },
+  {
+    "id": 343,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Dekga ta'rif bering",
+    "options": [
+      "LIFO tamoyili asosida ishlaydigan ro'yxat",
+      "Ikkala tomoni ochiq  ro'yxat turi",
+      "bir biriga bog'langan elementlardan tashkil topgan struktura",
+      "FIFO tamoyili asosida ishlaydigan  berilganlar strukturasi turi"
+    ],
+    "answer": "Ikkala tomoni ochiq  ro'yxat turi"
+  },
+  {
+    "id": 344,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Teskari rekursiya nima?",
+    "options": [
+      "Algoritmning teskari ko'rinishi",
+      "Eng yaxshi yechimni tanlash",
+      "Rekursiyaning orqaga qarab ketishi",
+      "Qaytish algoritmi"
+    ],
+    "answer": "Rekursiyaning orqaga qarab ketishi"
+  },
+  {
+    "id": 345,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Memoization texnikasining asosiy maqsadi nima?",
+    "options": [
+      "Algoritmni qisqartirish",
+      "Qayta ishlashni kamaytirish uchun natijalarni saqlash",
+      "Yangi ma'lumotlarni saqlash",
+      "Takrorlangan hisob-kitoblarni oldini olish"
+    ],
+    "answer": "Qayta ishlashni kamaytirish uchun natijalarni saqlash"
+  },
+  {
+    "id": 346,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Transpozisiya usulining ma’nosi nima?",
+    "options": [
+      "Topilgan element o’zidan keyingi turgan element bilan almashtirila di.",
+      "Topilgan element tuzilmaning oxirgi elementi bilan almashtirila di.",
+      "Topilgan element tuzilmaning 1-elementi bilan almashtirila di.",
+      "Topilgan element o’zidan oldinda turgan element bilan almashtirila di."
+    ],
+    "answer": "Topilgan element o’zidan oldinda turgan element bilan almashtirila di."
+  },
+  {
+    "id": 347,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ro’yxatni massivdan ustunligini ko’rsating",
+    "options": [
+      "Ro’yxat elementlari butun tipda bo’lishi kerak",
+      "Ular orasida sezilarli farq yo’q",
+      "Ro’yxat elementlari turli tipda bo’lishi mumkin",
+      "ro’yxatni uzunligiga chegara belgilanmaydi"
+    ],
+    "answer": "ro’yxatni uzunligiga chegara belgilanmaydi"
+  },
+  {
+    "id": 348,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Dastur bajarilish jarayonida xotira xajmi statik belgilanadi va deskriptor-ko’rsatkich orqali foydalanilgan tuzilma to’plamlariga ... deyiladi.",
+    "options": [
+      "Dinamik ma’lumotlar tuzilmasi",
+      "Statik ma’lumotlar tuzilmasi",
+      "Yarimstatik ma’lumotlar tuzilmasi",
+      "Rekursiv ma’lumotlar tuzilmasi"
+    ],
+    "answer": "Yarimstatik ma’lumotlar tuzilmasi"
+  },
+  {
+    "id": 349,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qanday kalit so’zi yordamida nol havola (bo’sh manzil) belgilanadi",
+    "options": [
+      "EMP",
+      "NaN",
+      "ERROR",
+      "NULL"
+    ],
+    "answer": "NULL"
+  },
+  {
+    "id": 350,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Bir bog’lamli ro’yxatda nechta ko’rsatkichdan foydalaniladi",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "3"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 351,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Ikki bog’lamli ro’yxatda nechta ko’rsatkichdan foydalaniladi",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 352,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Dastur bajarilish jarayonida xotira xajmi aniqlangan yoki ularning soni ma’lum bo’lishi tuzilma to’plamlariga ... deyiladi.",
+    "options": [
+      "Yarimstatik ma’lumotlar tuzilmasi",
+      "Statik ma’lumotlar tuzilmasi",
+      "dinamik ma’lumotlar tuzilmasi",
+      "Rekursiv ma’lumotlar tuzilmasi"
+    ],
+    "answer": "Statik ma’lumotlar tuzilmasi"
+  },
+  {
+    "id": 353,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "G grafni aks etishda  qo’shni tugunlar qirralaridan iborat chiziqli ro’yxati qanday nomlanadi",
+    "options": [
+      "Munosabat matrisasi",
+      "Qo’shnilik ro’yxati",
+      "Qo’shma matrisa",
+      "Qirralar  ro’yxati"
+    ],
+    "answer": "Qo’shnilik ro’yxati"
+  },
+  {
+    "id": 354,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "G grafni aks etishda  A[n] massiv bo’lib, massivning xar bir elementi tugun bilan qo’shni tugunlar ro’yxati qanday nomlanadi",
+    "options": [
+      "Qo’shnilik ro’yxati",
+      "Qo’shma matrisa",
+      "Munosabat matrisasi",
+      "Qirralar ro’yxati"
+    ],
+    "answer": "Qo’shnilik ro’yxati"
+  },
+  {
+    "id": 355,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "G grafni aks etishda n-ga m o’lchamli B matrisasi qanday nomlanadi",
+    "options": [
+      "Qo’shnilik ro’yxati",
+      "Qirralar ro’yxati",
+      "Qo’shma matrisa",
+      "Munosabat matrisasi"
+    ],
+    "answer": "Munosabat matrisasi"
+  },
+  {
+    "id": 356,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "G grafni aks etishda n o’lchamli A kvadrat matrisasi qanday nomlanadi",
+    "options": [
+      "Munosabat matrisasi",
+      "Qo’shma matrisa",
+      "Qirralar ro’yxati",
+      "Qo’shnilik ro’yxati"
+    ],
+    "answer": "Qo’shma matrisa"
+  },
+  {
+    "id": 357,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Grafda nechta va qaysilar ko’ruv amallarini ifodalaydi",
+    "options": [
+      "Ikkita (eniga va tubiga)",
+      "Uchta (to’g’ri, teskari, akslanuvchi)",
+      "Uchta (to’g’ri, teskari, simmetrik)",
+      "Ikkita (eniga va uzunasiga)"
+    ],
+    "answer": "Ikkita (eniga va tubiga)"
+  },
+  {
+    "id": 358,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Minimal balandlikka ega daraxt",
+    "options": [
+      "BINARY TREE",
+      "HEAP TREE",
+      "2-3 TREE",
+      "Red Black Tree"
+    ],
+    "answer": "HEAP TREE"
+  },
+  {
+    "id": 359,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Grafning tugun darajasi bu",
+    "options": [
+      "undan chiquvchi tugunlar soni xisoblanadi",
+      "undan chiquvchi qirralar o’rta geometrik soni xisoblanadi",
+      "undan chiquvchi qirralar soni xisoblanadi",
+      "undan chiquvchi qirralar o’rta arifmetik soni xisoblanadi"
+    ],
+    "answer": "undan chiquvchi qirralar soni xisoblanadi"
+  },
+  {
+    "id": 360,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Grafning o’lchami nimaga teng",
+    "options": [
+      "Qirralar soniga",
+      "Qirra va uchlar soniga",
+      "Ilmoqlar soniga",
+      "Uchlar soniga"
+    ],
+    "answer": "Qirralar soniga"
+  },
+  {
+    "id": 361,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Grafning tartibi nimaga teng",
+    "options": [
+      "Ilmoqlar soniga",
+      "Qirra va uchlar soniga",
+      "Uchlar soniga",
+      "Qirralar soniga"
+    ],
+    "answer": "Uchlar soniga"
+  },
+  {
+    "id": 362,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Daraxt qanday nomlanadi, agar uning chiqish darajasi ikkidan oshmasa.",
+    "options": [
+      "Ko’pqatlamli",
+      "Tetradli",
+      "Ternar",
+      "Binar"
+    ],
+    "answer": "Binar"
+  },
+  {
+    "id": 363,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Qidiruv daraxtda nechta va qaysilar ko’ruv amallarini ifodalaydi",
+    "options": [
+      "Ikkita (eniga va tubiga)",
+      "Uchta (to’g’ri, teskari, akslanuvchi)",
+      "Ikkita (eniga va uzunasiga)",
+      "Uchta (to’g’ri, teskari, simmetrik)"
+    ],
+    "answer": "Uchta (to’g’ri, teskari, simmetrik)"
+  },
+  {
+    "id": 364,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Kompyuter xotirasida binar daraxtni qanday ko’rinishda tasvirlash qulay",
+    "options": [
+      "yozuv",
+      "massivlar",
+      "jadvallar",
+      "bog’langan chiziqsiz ro’yxatlar"
+    ],
+    "answer": "bog’langan chiziqsiz ro’yxatlar"
+  },
+  {
+    "id": 365,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Agar qirralar shunchaki ikki uchini bog'lab tursa va yo'nalishga ega bo'lmasa ... deb ataladi.",
+    "options": [
+      "Vaznga ega",
+      "Yo’naltirilgan graf",
+      "Aralash",
+      "Yo’naltirilmagan graf"
+    ],
+    "answer": "Yo’naltirilmagan graf"
+  },
+  {
+    "id": 366,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Agar grafning munosabatlarini tasvirlashda qirralarning yo'nalishi  ko'rsatilgan bo'lsa, ….deyiladi.",
+    "options": [
+      "Aralash",
+      "Vaznga ega",
+      "Yo’naltirilmagan graf",
+      "Yo’naltirilgan graf"
+    ],
+    "answer": "Yo’naltirilgan graf"
+  },
+  {
+    "id": 367,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Agar grafning munosabatlarini tasvirlashda yoy va qirralardan foydalanilsa, u holda graf ... deyiladi.",
+    "options": [
+      "Yo’naltirilmagan",
+      "Aralash",
+      "Vaznga ega",
+      "Yo’naltirilgan"
+    ],
+    "answer": "Aralash"
+  },
+  {
+    "id": 368,
+    "subject": "Ma'lumotlar tuzilmasi va algoritmlar",
+    "question": "Agar grafning munosabatlariga og’irlik qiymati belgilansa, u holda graf ... deyiladi.",
+    "options": [
+      "Vaznga ega",
+      "Yo’naltirilmagan graf",
+      "Yo’naltirilgan graf",
+      "Aralash"
+    ],
+    "answer": "Vaznga ega"
   }
 ]

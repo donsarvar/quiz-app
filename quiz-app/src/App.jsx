@@ -8,12 +8,14 @@ import './index.css';
 function App() {
   const [appState, setAppState] = useState('home'); // 'home', 'quiz', 'results'
   const [settings, setSettings] = useState({
-    mode: 'practice', // 'practice' or 'exam'
-    questionCount: 30, // 10, 30, 50, 'all'
+    mode: 'practice', 
+    questionCount: 30, 
   });
   
   const [currentQuestions, setCurrentQuestions] = useState([]);
   const [userAnswers, setUserAnswers] = useState({});
+  const [startTime, setStartTime] = useState(null);
+  const [totalTimeSeconds, setTotalTimeSeconds] = useState(0);
 
   const startQuiz = (newSettings) => {
     setSettings(newSettings);
@@ -32,11 +34,26 @@ function App() {
     
     setCurrentQuestions(selectedQuestions);
     setUserAnswers({});
+    setStartTime(Date.now());
     setAppState('quiz');
   };
 
   const finishQuiz = (answers) => {
     setUserAnswers(answers);
+    const endTime = Date.now();
+    const durationInSeconds = Math.floor((endTime - startTime) / 1000);
+    setTotalTimeSeconds(durationInSeconds);
+    
+    // Simple mock update for Gamification "Streak"
+    const currentStreak = parseInt(localStorage.getItem('quiz_streak') || '0');
+    const lastPlayed = localStorage.getItem('quiz_last_played');
+    const today = new Date().toDateString();
+    
+    if (lastPlayed !== today) {
+      localStorage.setItem('quiz_streak', (currentStreak + 1).toString());
+      localStorage.setItem('quiz_last_played', today);
+    }
+    
     setAppState('results');
   };
 
@@ -44,6 +61,7 @@ function App() {
     setAppState('home');
     setCurrentQuestions([]);
     setUserAnswers({});
+    setTotalTimeSeconds(0);
   };
 
   return (
@@ -68,6 +86,7 @@ function App() {
         <Results 
           questions={currentQuestions}
           answers={userAnswers}
+          totalTime={totalTimeSeconds}
           onHome={goHome}
         />
       )}
