@@ -37,8 +37,8 @@ const Results = ({ questions, answers, totalTime, onHome }) => {
   }));
 
   const doughnutData = [
-    { name: "To'g'ri", value: correctCount, fill: "hsl(var(--success))" },
-    { name: "Xato", value: questions.length - correctCount, fill: "hsl(var(--destructive))" }
+    { name: "To'g'ri", value: correctCount, fill: "hsl(var(--primary))" }, // shadcn uses primary color for success often, or keep a muted success
+    { name: "Xato", value: questions.length - correctCount, fill: "hsl(var(--muted))" } // subtle muted for incorrect
   ];
 
   useEffect(() => {
@@ -50,7 +50,7 @@ const Results = ({ questions, answers, totalTime, onHome }) => {
     if (isSuccess) {
       const duration = 3 * 1000;
       const animationEnd = Date.now() + duration;
-      const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+      const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0, colors: ['#ffffff', '#a1a1aa', '#3f3f46'] }; // Monochrome-ish confetti for shadcn vibe
 
       const randomInRange = (min, max) => Math.random() * (max - min) + min;
 
@@ -87,103 +87,101 @@ const Results = ({ questions, answers, totalTime, onHome }) => {
         
         {/* HEADER: F-Pattern Main Block */}
         <div className="bento-item bento-header" style={{
-          backgroundColor: isSuccess ? 'hsl(var(--success-soft))' : 'hsl(var(--destructive-soft))',
-          borderColor: isSuccess ? 'hsl(var(--success))' : 'hsl(var(--destructive))',
+          backgroundColor: 'transparent',
+          border: '1px solid hsl(var(--border))',
+          alignItems: 'center',
+          textAlign: 'center'
         }}>
-          <h1 style={{ fontSize: '3rem', color: isSuccess ? 'hsl(var(--success))' : 'hsl(var(--destructive))' }}>
-            {isSuccess ? "Muvaffaqiyatli o'tdingiz! 🎉" : "Afsuski, ball yetmadi 😔"}
+          <h1 style={{ fontSize: '2.5rem', color: 'hsl(var(--foreground))', letterSpacing: '-0.05em' }}>
+            {isSuccess ? "Muvaffaqiyatli yakunlandi" : "Imtihondan o'ta olmadingiz"}
           </h1>
-          <p style={{ color: 'hsl(var(--foreground))', marginTop: '0.5rem', opacity: 0.9 }}>
-            Umumiy {questions.length} ta savoldan {correctCount} tasiga to'g'ri javob berdingiz.
+          <p style={{ color: 'hsl(var(--muted-foreground))', marginTop: '0.75rem', fontSize: '1.1rem' }}>
+            Jami {questions.length} ta savoldan {correctCount} tasiga to'g'ri javob berdingiz.
           </p>
         </div>
 
         {/* METRICS BLOCKS */}
         <div className="bento-item bento-metric">
-          <Clock size={28} color="hsl(var(--muted-foreground))" />
-          <div className="metric-value">{formatTime(totalTime)}</div>
-          <div className="metric-label">Umumiy vaqt</div>
+          <Clock size={20} color="hsl(var(--muted-foreground))" />
+          <div>
+            <div className="metric-label">Umumiy vaqt</div>
+            <div className="metric-value">{formatTime(totalTime)}</div>
+          </div>
         </div>
 
         <div className="bento-item bento-metric">
-          <CheckCircle size={28} color="hsl(var(--success))" />
-          <div className="metric-value">{correctCount} / {questions.length}</div>
-          <div className="metric-label">To'g'ri javoblar</div>
+          <CheckCircle size={20} color="hsl(var(--muted-foreground))" />
+          <div>
+            <div className="metric-label">To'g'ri javoblar</div>
+            <div className="metric-value">{correctCount} <span style={{fontSize: '1rem', color: 'hsl(var(--muted-foreground))', fontWeight: '500'}}>/ {questions.length}</span></div>
+          </div>
         </div>
 
         <div className="bento-item bento-metric">
-          <Layers size={28} color="hsl(var(--primary))" />
-          <div className="metric-value">{averageTime}s</div>
-          <div className="metric-label">O'rtacha tezlik (1 savolga)</div>
+          <Layers size={20} color="hsl(var(--muted-foreground))" />
+          <div>
+            <div className="metric-label">O'rtacha tezlik</div>
+            <div className="metric-value">{averageTime}s</div>
+          </div>
         </div>
 
         {/* DATA VISUALIZATION: DOUGHNUT CHART */}
         <div className="bento-item bento-chart-doughnut">
-          <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Umumiy Nisbat</h3>
+          <h3 style={{ marginBottom: '1.5rem', fontSize: '1rem', fontWeight: '600' }}>Umumiy Nisbat</h3>
           <DoughnutChart data={doughnutData} percentage={percentage} />
         </div>
 
         {/* DATA VISUALIZATION: BAR CHART */}
         <div className="bento-item bento-chart-bar">
-          <h3 style={{ marginBottom: '1rem' }}>Fanlar bo'yicha tahlil (%)</h3>
+          <h3 style={{ marginBottom: '1.5rem', fontSize: '1rem', fontWeight: '600' }}>Fanlar bo'yicha tahlil</h3>
           <BarChart data={barChartData} />
         </div>
 
-        {/* GAMIFICATION & SOCIAL */}
-        <div className="bento-item bento-gamification" style={{ justifyContent: 'center' }}>
-          <div style={{ textAlign: 'center', flex: 1, borderRight: '1px solid hsl(var(--border))' }}>
-            <Flame size={40} color="#ff7a00" style={{ margin: '0 auto', marginBottom: '0.5rem' }} />
-            <h2 style={{ fontSize: '1.75rem', margin: 0 }}>{streak} kun</h2>
-            <p className="metric-label">Faollik (Streak)</p>
-          </div>
-          <div style={{ textAlign: 'center', flex: 1 }}>
-            <Trophy size={40} color="#ffb800" style={{ margin: '0 auto', marginBottom: '0.5rem' }} />
-            <h2 style={{ fontSize: '1.75rem', margin: 0 }}>Top {100 - socialPercent}%</h2>
-            <p className="metric-label">Foydalanuvchilardan yaxshiroq</p>
-          </div>
-        </div>
-
         {/* REVIEW ANSWERS */}
-        <div className="bento-item bento-review">
+        <div className="bento-item bento-review" style={{ marginTop: '1rem' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
-            <h2>Xatolar ustida ishlash</h2>
+            <h2 style={{ fontSize: '1.25rem', fontWeight: '600' }}>Batafsil natijalar</h2>
             <button 
-              className={`btn ${showIncorrectOnly ? 'btn-primary' : 'btn-outline'}`}
+              className={`btn ${showIncorrectOnly ? 'btn-secondary' : 'btn-outline'}`}
               onClick={() => setShowIncorrectOnly(!showIncorrectOnly)}
-              style={{ minHeight: '40px', padding: '0 1rem' }}
+              style={{ height: '36px', fontSize: '0.875rem' }}
             >
-              <Filter size={16} /> Faqat xatolarni ko'rsatish
+              <Filter size={14} style={{ marginRight: '6px' }} /> 
+              {showIncorrectOnly ? 'Barchasini ko\'rsatish' : 'Faqat xatolarni ko\'rsatish'}
             </button>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
             {filteredQuestions.map((q, idx) => {
               const isCorrect = answers[q.id] === q.answer;
               return (
-                <div key={q.id} className={`review-item ${isCorrect ? 'correct' : 'incorrect'}`}>
+                <div key={q.id} className="review-item">
                   <div className="review-header">
-                    <p style={{ fontWeight: '600', lineHeight: 1.5 }}>
-                      <span style={{ color: 'hsl(var(--muted-foreground))', marginRight: '0.5rem' }}>{q.subject}</span>
-                      <br/>
-                      {q.question}
-                    </p>
-                    {isCorrect ? 
-                      <CheckCircle size={20} color="hsl(var(--success))" style={{ flexShrink: 0 }} /> : 
-                      <XCircle size={20} color="hsl(var(--destructive))" style={{ flexShrink: 0 }} />
-                    }
+                    <div style={{ flex: 1 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
+                        <span className="badge badge-outline">{q.subject}</span>
+                        {isCorrect ? 
+                          <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'hsl(var(--success))', display: 'flex', alignItems: 'center', gap: '4px' }}><CheckCircle size={12}/> To'g'ri</span> : 
+                          <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'hsl(var(--destructive))', display: 'flex', alignItems: 'center', gap: '4px' }}><XCircle size={12}/> Xato</span>
+                        }
+                      </div>
+                      <p style={{ fontWeight: '500', fontSize: '0.95rem', color: 'hsl(var(--foreground))', lineHeight: 1.5 }}>
+                        {q.question}
+                      </p>
+                    </div>
                   </div>
                   
-                  <div style={{ marginTop: '0.75rem', fontSize: '0.9rem', display: 'grid', gap: '0.5rem' }}>
-                    <div style={{ display: 'flex', gap: '0.5rem' }}>
-                      <span style={{ color: 'hsl(var(--muted-foreground))' }}>Sizning javobingiz:</span>
-                      <strong style={{ color: isCorrect ? 'hsl(var(--success))' : 'hsl(var(--destructive))' }}>
+                  <div style={{ marginTop: '1rem', display: 'grid', gap: '0.5rem', padding: '0.75rem', backgroundColor: 'hsl(var(--muted) / 0.3)', borderRadius: 'calc(var(--radius) - 4px)' }}>
+                    <div style={{ display: 'flex', gap: '0.75rem', fontSize: '0.875rem' }}>
+                      <span style={{ color: 'hsl(var(--muted-foreground))', minWidth: '100px' }}>Sizning javobingiz:</span>
+                      <strong style={{ color: 'hsl(var(--foreground))', fontWeight: '500' }}>
                         {answers[q.id] || 'Belgilanmagan'}
                       </strong>
                     </div>
                     {!isCorrect && (
-                      <div style={{ display: 'flex', gap: '0.5rem' }}>
-                        <span style={{ color: 'hsl(var(--muted-foreground))' }}>To'g'ri javob:</span>
-                        <strong style={{ color: 'hsl(var(--success))' }}>{q.answer}</strong>
+                      <div style={{ display: 'flex', gap: '0.75rem', fontSize: '0.875rem' }}>
+                        <span style={{ color: 'hsl(var(--muted-foreground))', minWidth: '100px' }}>To'g'ri javob:</span>
+                        <strong style={{ color: 'hsl(var(--foreground))', fontWeight: '500' }}>{q.answer}</strong>
                       </div>
                     )}
                   </div>
@@ -192,21 +190,21 @@ const Results = ({ questions, answers, totalTime, onHome }) => {
             })}
             
             {filteredQuestions.length === 0 && (
-              <div style={{ textAlign: 'center', padding: '2rem', color: 'hsl(var(--muted-foreground))' }}>
-                Hech qanday xato topilmadi! Ajoyib natija!
+              <div style={{ textAlign: 'center', padding: '3rem 1rem', color: 'hsl(var(--muted-foreground))', border: '1px dashed hsl(var(--border))', borderRadius: 'var(--radius)' }}>
+                Ko'rsatish uchun ma'lumot yo'q.
               </div>
             )}
           </div>
         </div>
 
         {/* ACTIONS */}
-        <div className="bento-item bento-actions">
+        <div className="bento-item bento-actions" style={{ marginTop: '1rem' }}>
           <button className="btn btn-outline" onClick={handleShare}>
-            <Share2 size={20} /> Natijani ulashish
+            <Share2 size={16} style={{ marginRight: '6px' }} /> Natijani ulashish
           </button>
           <button className="btn btn-primary" onClick={onHome}>
-            {isSuccess ? <Home size={20} /> : <RefreshCw size={20} />}
-            {isSuccess ? 'Bosh sahifaga qaytish' : 'Xatolarni qayta topshirish'}
+            {isSuccess ? <Home size={16} style={{ marginRight: '6px' }} /> : <RefreshCw size={16} style={{ marginRight: '6px' }} />}
+            {isSuccess ? 'Bosh sahifaga' : 'Qayta topshirish'}
           </button>
         </div>
 

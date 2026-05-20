@@ -1,16 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Home from './components/Home';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
 import allQuestions from './data/questions.json';
+import { Sun, Moon } from 'lucide-react';
 import './index.css';
 
 function App() {
+  const [theme, setTheme] = useState('dark');
   const [appState, setAppState] = useState('home'); // 'home', 'quiz', 'results'
   const [settings, setSettings] = useState({
     mode: 'practice', 
     questionCount: 30, 
   });
+
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+  };
   
   const [currentQuestions, setCurrentQuestions] = useState([]);
   const [userAnswers, setUserAnswers] = useState({});
@@ -66,6 +80,12 @@ function App() {
 
   return (
     <div className="app-container">
+      <div style={{ position: 'absolute', top: '1rem', right: '1rem', zIndex: 10 }}>
+        <button className="btn btn-outline" style={{ width: '40px', padding: 0 }} onClick={toggleTheme}>
+          {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+        </button>
+      </div>
+
       {appState === 'home' && (
         <Home 
           onStart={startQuiz} 
