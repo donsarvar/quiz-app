@@ -92,6 +92,8 @@ const Quiz = ({ questions, settings, onFinish, onExit }) => {
               justifyContent: 'center',
               width: '28px',
               height: '28px',
+              minWidth: '28px',
+              flexShrink: 0,
               borderRadius: '50%',
               backgroundColor: 'hsla(var(--foreground) / 0.1)',
               marginRight: '1rem',
