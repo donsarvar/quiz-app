@@ -80,8 +80,13 @@ function App() {
 
   return (
     <div className="app-container">
-      <div style={{ position: 'absolute', top: '1rem', right: '1rem', zIndex: 10 }}>
-        <button className="btn btn-outline" style={{ width: '40px', padding: 0 }} onClick={toggleTheme}>
+      <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1.5rem' }}>
+        <button 
+          className="btn btn-outline" 
+          style={{ width: '44px', height: '44px', padding: 0, borderRadius: '50%' }} 
+          onClick={toggleTheme}
+          aria-label="Toggle theme"
+        >
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
         </button>
       </div>
